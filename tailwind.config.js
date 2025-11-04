@@ -9,7 +9,7 @@ module.exports = {
         lato: ['Lato', 'sans-serif'],
       },
       colors: {
-        main: '#A8E0FF',
+        main: '#7371FC',
         support: '#1A1423',
         side: '#FFD131',
       },
