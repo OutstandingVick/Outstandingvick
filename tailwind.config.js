@@ -9,9 +9,9 @@ module.exports = {
         lato: ['Lato', 'sans-serif'],
       },
       colors: {
-        main: '#EFCA08',
+        main: '#A8E0FF',
         support: '#1A1423',
-        side: '#470FF4',
+        side: '#FFD131',
       },
     },
   },
