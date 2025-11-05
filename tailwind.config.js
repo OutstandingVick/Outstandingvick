@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: 'class',
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     extend: {
@@ -9,9 +10,10 @@ module.exports = {
         lato: ['Lato', 'sans-serif'],
       },
       colors: {
-        main: '#7371FC',
+        main: '#DFA06E',
         support: '#1A1423',
         side: '#FFD131',
+        dain: '#412722',
       },
     },
   },

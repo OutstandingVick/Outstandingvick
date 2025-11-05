@@ -8,7 +8,7 @@ function App() {
   return (
     <Router>
       {/* <ScrollToTop /> */}
-      <div className='min-h-screen bg-main bg-center px-24'>
+      <div className='min-h-screen dark:bg-dain bg-main bg-center px-5 md:px-20'>
         <ScrollToTop />
         <Navbar />
         <div className='p-0'>
