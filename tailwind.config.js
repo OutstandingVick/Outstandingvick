@@ -14,6 +14,8 @@ module.exports = {
         support: '#1A1423',
         side: '#FFD131',
         dain: '#412722',
+        caro: '#6DAEDB',
+        cele: '#2892D7',
       },
     },
   },
