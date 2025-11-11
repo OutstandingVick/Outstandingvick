@@ -8,7 +8,7 @@ export default function Navbar() {
   const { toggleTheme } = useTheme();
 
   return (
-    <nav className='font-lato dark:bg-dain dark:text-side text-support bg-main py-2'>
+    <nav className='font-lato dark:bg-dain dark:text-main text-support bg-main py-2'>
       <div className='flex items-center justify-between'>
         <div className='flex items-center space-x-2'>
           <div className='p-2'>
