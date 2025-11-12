@@ -9,6 +9,8 @@ module.exports = {
         cardo: ['Cardo', 'serif'],
         elms: ['Elms San', 'sans-serif'],
         lato: ['Lato', 'sans-serif'],
+        advent: ['Advent Pro', 'sans-serif'],
+        jersey: ['Jersey 25', 'sans-serif'],
       },
       colors: {
         main: '#F5B700',

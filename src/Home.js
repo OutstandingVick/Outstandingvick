@@ -69,7 +69,7 @@ export default function Home() {
             </button>
             <p className='bg-tange p-3 rounded-3xl text-sm'>Solana</p>
           </div>
-          <h1 className='text-3xl'>Ribh Discover Rice</h1>
+          <h1 className='text-3xl font-advent font-bold'>Ribh Discover Rice</h1>
           <p className='text-lg py-4'>
             A website for a top class barbing salon to deliver exquisite styling
             to their clients.
@@ -98,7 +98,7 @@ export default function Home() {
             </button>
             <p className='bg-tange p-3 rounded-3xl text-sm'>Solana</p>
           </div>
-          <h1 className='text-3xl'>Ribh Discover Rice</h1>
+          <h1 className='text-3xl font-advent font-bold'>Ribh Discover Rice</h1>
           <p className='text-lg py-4'>
             A website for a top class barbing salon to deliver exquisite styling
             to their clients.
@@ -127,7 +127,7 @@ export default function Home() {
             </button>
             <p className='bg-tange p-3 rounded-3xl text-sm'>Solana</p>
           </div>
-          <h1 className='text-3xl'>Ribh Discover Rice</h1>
+          <h1 className='text-3xl font-advent font-bold'>Ribh Discover Rice</h1>
           <p className='text-lg py-4'>
             A website for a top class barbing salon to deliver exquisite styling
             to their clients.
@@ -156,7 +156,7 @@ export default function Home() {
             </button>
             <p className='bg-tange p-3 rounded-3xl text-sm'>Solana</p>
           </div>
-          <h1 className='text-3xl'>Ribh Discover Rice</h1>
+          <h1 className='text-3xl font-advent font-bold'>Ribh Discover Rice</h1>
           <p className='text-lg py-4'>
             A website for a top class barbing salon to deliver exquisite styling
             to their clients.
@@ -185,7 +185,7 @@ export default function Home() {
             </button>
             <p className='bg-tange p-3 rounded-3xl text-sm'>Solana</p>
           </div>
-          <h1 className='text-3xl'>Ribh Discover Rice</h1>
+          <h1 className='text-3xl font-advent font-bold'>Ribh Discover Rice</h1>
           <p className='text-lg py-4'>
             A website for a top class barbing salon to deliver exquisite styling
             to their clients.
@@ -214,7 +214,7 @@ export default function Home() {
             </button>
             <p className='bg-tange p-3 rounded-3xl text-sm'>Solana</p>
           </div>
-          <h1 className='text-3xl'>Ribh Discover Rice</h1>
+          <h1 className='text-3xl font-advent font-bold'>Ribh Discover Rice</h1>
           <p className='text-lg py-4'>
             A website for a top class barbing salon to deliver exquisite styling
             to their clients.
@@ -239,8 +239,8 @@ export default function Home() {
       </div>
       <br />
       <div className='flex flex-col md:flex-row md:mx-9 md:my-7 justify-between'>
-        <h1 className='md:text-5xl font-elms'>About Me</h1>
-        <div className='md:text-base mt-2'>
+        <h1 className='md:text-5xl font-elms font-bold'>About Me</h1>
+        <div className='md:text-xl mt-2 font-cardo'>
           <p>
             A short description of myself, the skills I possess, the services I
             provide to my clients,
@@ -249,7 +249,7 @@ export default function Home() {
         </div>
       </div>
       <div className='mx-9'>
-        <p className='md:text-lg'>
+        <p className='md:text-xl font-cardo'>
           I’m a Web3 writer, researcher, community manager, and state lead
           passionate about building meaningful connections in the Solana
           ecosystem. With a mix of storytelling and strategy, I help projects
@@ -262,8 +262,14 @@ export default function Home() {
         </p>
       </div>
       <br />
-      <div className='flex justify-start md:mx-9 md:my-5'>
-        <h1 className='md:text-5xl font-elms'>Experience</h1>
+      <div className='flex flex-col'>
+        <div className='flex justify-start md:mx-9 md:mt-5 md:mb-3'>
+          <h1 className='md:text-4xl font-elms font-bold'>Experience</h1>
+        </div>
+        <div className='md:mx-9 md:mt-3 md:mb-5'>
+          <h1 className='md:text-3xl font-elms'>Writer</h1>
+          <div></div>
+        </div>
       </div>
     </article>
   );
