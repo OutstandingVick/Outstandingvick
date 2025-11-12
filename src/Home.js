@@ -1,5 +1,6 @@
 import React from 'react';
 import { GoSun } from 'react-icons/go';
+import { SiSolana } from 'react-icons/si';
 
 export default function Home() {
   return (
@@ -51,8 +52,8 @@ export default function Home() {
       </div>
       <br />
       <div className='flex flex-col md:flex-row mx-12 md:m-16 justify-between '>
-        <h1 className='md:text-6xl'>Featured Projects</h1>
-        <div className='md:text-lg mt-2'>
+        <h1 className='md:text-6xl font-elms'>Featured Works</h1>
+        <div className='md:text-lg mt-2 font-cardo'>
           <p>
             A curated set of projects from research papers to articles to mix of
             both
@@ -61,6 +62,151 @@ export default function Home() {
         </div>
       </div>
       <div className='mx-14 grid md:grid-cols-3 gap-8 justify-center'>
+        <div className='rounded-3xl border border-support dark:border-main w-96 px-6 py-8 hover:bg-gradient-to-r hover:from-caro hover:to-cele transition-all duration-300'>
+          <div className='flex justify-between mb-8'>
+            <button className='p-3 bg-gradient-to-tr from-purp to-dide rounded-xl'>
+              <SiSolana />
+            </button>
+            <p className='bg-tange p-3 rounded-3xl text-sm'>Solana</p>
+          </div>
+          <h1 className='text-3xl'>Ribh Discover Rice</h1>
+          <p className='text-lg py-4'>
+            A website for a top class barbing salon to deliver exquisite styling
+            to their clients.
+          </p>
+          <div className='flex flex-row justify-around py-4 dark:text-main pb-20'>
+            <p className='px-2 py-2 rounded-3xl border dark:border-main dark:text-main  text-support border-support'>
+              Creative
+            </p>
+            <p className='px-2 py-2 rounded-3xl border dark:border-main dark:text-main text-support border-support'>
+              Technical
+            </p>
+            <p className='px-2 py-2 rounded-3xl border dark:border-main dark:text-main text-support border-support'>
+              DeFi
+            </p>
+          </div>
+          <div className='flex justify-center mt-6 mb-4'>
+            <button className='text-lg px-4 py-3 rounded-3xl border dark:border-main dark:text-main text-support border-support'>
+              Read More
+            </button>
+          </div>
+        </div>
+        <div className='rounded-3xl border border-support dark:border-main w-96 px-6 py-8 hover:bg-gradient-to-r hover:from-caro hover:to-cele transition-all duration-300'>
+          <div className='flex justify-between mb-8'>
+            <button className='p-3 bg-gradient-to-tr from-purp to-dide rounded-xl'>
+              <GoSun />
+            </button>
+            <p className='bg-tange p-3 rounded-3xl text-sm'>Solana</p>
+          </div>
+          <h1 className='text-3xl'>Ribh Discover Rice</h1>
+          <p className='text-lg py-4'>
+            A website for a top class barbing salon to deliver exquisite styling
+            to their clients.
+          </p>
+          <div className='flex flex-row justify-around py-4 dark:text-main pb-20'>
+            <p className='px-2 py-2 rounded-3xl border dark:border-main dark:text-main  text-support border-support'>
+              Creative
+            </p>
+            <p className='px-2 py-2 rounded-3xl border dark:border-main dark:text-main text-support border-support'>
+              Technical
+            </p>
+            <p className='px-2 py-2 rounded-3xl border dark:border-main dark:text-main text-support border-support'>
+              DeFi
+            </p>
+          </div>
+          <div className='flex justify-center mt-6 mb-4'>
+            <button className='text-lg px-4 py-3 rounded-3xl border dark:border-main dark:text-main text-support border-support'>
+              Read More
+            </button>
+          </div>
+        </div>
+        <div className='rounded-3xl border border-support dark:border-main w-96 px-6 py-8 hover:bg-gradient-to-r hover:from-caro hover:to-cele transition-all duration-300'>
+          <div className='flex justify-between mb-8'>
+            <button className='p-3 bg-gradient-to-tr from-purp to-dide rounded-xl'>
+              <GoSun />
+            </button>
+            <p className='bg-tange p-3 rounded-3xl text-sm'>Solana</p>
+          </div>
+          <h1 className='text-3xl'>Ribh Discover Rice</h1>
+          <p className='text-lg py-4'>
+            A website for a top class barbing salon to deliver exquisite styling
+            to their clients.
+          </p>
+          <div className='flex flex-row justify-around py-4 dark:text-main pb-20'>
+            <p className='px-2 py-2 rounded-3xl border dark:border-main dark:text-main  text-support border-support'>
+              Creative
+            </p>
+            <p className='px-2 py-2 rounded-3xl border dark:border-main dark:text-main text-support border-support'>
+              Technical
+            </p>
+            <p className='px-2 py-2 rounded-3xl border dark:border-main dark:text-main text-support border-support'>
+              DeFi
+            </p>
+          </div>
+          <div className='flex justify-center mt-6 mb-4'>
+            <button className='text-lg px-4 py-3 rounded-3xl border dark:border-main dark:text-main text-support border-support'>
+              Read More
+            </button>
+          </div>
+        </div>
+        <div className='rounded-3xl border border-support dark:border-main w-96 px-6 py-8 hover:bg-gradient-to-r hover:from-caro hover:to-cele transition-all duration-300'>
+          <div className='flex justify-between mb-8'>
+            <button className='p-3 bg-gradient-to-tr from-purp to-dide rounded-xl'>
+              <GoSun />
+            </button>
+            <p className='bg-tange p-3 rounded-3xl text-sm'>Solana</p>
+          </div>
+          <h1 className='text-3xl'>Ribh Discover Rice</h1>
+          <p className='text-lg py-4'>
+            A website for a top class barbing salon to deliver exquisite styling
+            to their clients.
+          </p>
+          <div className='flex flex-row justify-around py-4 dark:text-main pb-20'>
+            <p className='px-2 py-2 rounded-3xl border dark:border-main dark:text-main  text-support border-support'>
+              Creative
+            </p>
+            <p className='px-2 py-2 rounded-3xl border dark:border-main dark:text-main text-support border-support'>
+              Technical
+            </p>
+            <p className='px-2 py-2 rounded-3xl border dark:border-main dark:text-main text-support border-support'>
+              DeFi
+            </p>
+          </div>
+          <div className='flex justify-center mt-6 mb-4'>
+            <button className='text-lg px-4 py-3 rounded-3xl border dark:border-main dark:text-main text-support border-support'>
+              Read More
+            </button>
+          </div>
+        </div>
+        <div className='rounded-3xl border border-support dark:border-main w-96 px-6 py-8 hover:bg-gradient-to-r hover:from-caro hover:to-cele transition-all duration-300'>
+          <div className='flex justify-between mb-8'>
+            <button className='p-3 bg-gradient-to-tr from-purp to-dide rounded-xl'>
+              <GoSun />
+            </button>
+            <p className='bg-tange p-3 rounded-3xl text-sm'>Solana</p>
+          </div>
+          <h1 className='text-3xl'>Ribh Discover Rice</h1>
+          <p className='text-lg py-4'>
+            A website for a top class barbing salon to deliver exquisite styling
+            to their clients.
+          </p>
+          <div className='flex flex-row justify-around py-4 dark:text-main pb-20'>
+            <p className='px-2 py-2 rounded-3xl border dark:border-main dark:text-main  text-support border-support'>
+              Creative
+            </p>
+            <p className='px-2 py-2 rounded-3xl border dark:border-main dark:text-main text-support border-support'>
+              Technical
+            </p>
+            <p className='px-2 py-2 rounded-3xl border dark:border-main dark:text-main text-support border-support'>
+              DeFi
+            </p>
+          </div>
+          <div className='flex justify-center mt-6 mb-4'>
+            <button className='text-lg px-4 py-3 rounded-3xl border dark:border-main dark:text-main text-support border-support'>
+              Read More
+            </button>
+          </div>
+        </div>
         <div className='rounded-3xl border border-support dark:border-main w-96 px-6 py-8 hover:bg-gradient-to-r hover:from-caro hover:to-cele transition-all duration-300'>
           <div className='flex justify-between mb-8'>
             <button className='p-3 bg-gradient-to-tr from-purp to-dide rounded-xl'>
@@ -92,7 +238,33 @@ export default function Home() {
         </div>
       </div>
       <br />
-      <div></div>
+      <div className='flex flex-col md:flex-row md:mx-9 md:my-7 justify-between'>
+        <h1 className='md:text-5xl font-elms'>About Me</h1>
+        <div className='md:text-base mt-2'>
+          <p>
+            A short description of myself, the skills I possess, the services I
+            provide to my clients,
+          </p>
+          <p>and the different capacities I've exercised these services in.</p>
+        </div>
+      </div>
+      <div className='mx-9'>
+        <p className='md:text-lg'>
+          I’m a Web3 writer, researcher, community manager, and state lead
+          passionate about building meaningful connections in the Solana
+          ecosystem. With a mix of storytelling and strategy, I help projects
+          communicate their vision, activate their audience, and grow with
+          purpose. As a social media manager and aspiring CMO, I focus on
+          crafting narratives that stick—turning complex ideas into engaging
+          content that drives culture and trust. I thrive at the intersection of
+          community, communication, and creativity, helping teams shape messages
+          that move people and build belief in Web3
+        </p>
+      </div>
+      <br />
+      <div className='flex justify-start md:mx-9 md:my-5'>
+        <h1 className='md:text-5xl font-elms'>Experience</h1>
+      </div>
     </article>
   );
 }

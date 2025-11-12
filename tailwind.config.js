@@ -7,6 +7,7 @@ module.exports = {
       fontFamily: {
         sketch: ['"Cabin Sketch"', 'cursive'],
         cardo: ['Cardo', 'serif'],
+        elms: ['Elms San', 'sans-serif'],
         lato: ['Lato', 'sans-serif'],
       },
       colors: {

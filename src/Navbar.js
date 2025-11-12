@@ -38,7 +38,7 @@ export default function Navbar() {
             href='/'
             className='hover:text-side dark:hover:text-main hover:underline underline-offset-4'
           >
-            Services
+            About
           </a>
           <a
             href='/'
