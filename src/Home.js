@@ -266,9 +266,39 @@ export default function Home() {
         <div className='flex justify-start md:mx-9 md:mt-5 md:mb-3'>
           <h1 className='md:text-4xl font-elms font-bold'>Experience</h1>
         </div>
-        <div className='md:mx-9 md:mt-3 md:mb-5'>
-          <h1 className='md:text-3xl font-elms'>Writer</h1>
-          <div></div>
+        <div className='md:mx-9 md:mt-3 md:mb-5 font-cardo flex flex-row'>
+          <div className='flex space-x-4'>
+            <img
+              className='w-12 h-12 bg-no-repeat bg-center bg-cover'
+              src={`${process.env.PUBLIC_URL}/img/fos.jpg`}
+              alt='Profile'
+            />
+            <h1 className='md:text-3xl pt-2'>Writer</h1>
+          </div>
+          <div className='flex space-x-4'>
+            <img
+              className='w-12 h-12 bg-no-repeat bg-center bg-cover'
+              src={`${process.env.PUBLIC_URL}/img/fos.jpg`}
+              alt='Profile'
+            />
+            <h1 className='md:text-3xl pt-2'>Writer</h1>
+          </div>
+          <div className='flex space-x-4'>
+            <img
+              className='w-12 h-12 bg-no-repeat bg-center bg-cover'
+              src={`${process.env.PUBLIC_URL}/img/fos.jpg`}
+              alt='Profile'
+            />
+            <h1 className='md:text-3xl pt-2'>Writer</h1>
+          </div>
+          <div className='flex space-x-4'>
+            <img
+              className='w-12 h-12 bg-no-repeat bg-center bg-cover'
+              src={`${process.env.PUBLIC_URL}/img/fos.jpg`}
+              alt='Profile'
+            />
+            <h1 className='md:text-3xl pt-2'>Writer</h1>
+          </div>
         </div>
       </div>
     </article>
