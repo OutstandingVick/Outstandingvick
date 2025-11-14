@@ -3,6 +3,7 @@ import ScrollToTop from 'react-scroll-to-top';
 import './App.css';
 import Home from './Home';
 import Navbar from './Navbar';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
             <Route path='/' element={<Home />} />
           </Routes>
         </div>
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </Router>
   );
