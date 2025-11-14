@@ -266,7 +266,7 @@ export default function Home() {
         <div className='flex justify-start md:mx-9 md:mt-5 md:mb-3'>
           <h1 className='md:text-4xl font-elms font-bold'>Experience</h1>
         </div>
-        <div className='md:mx-9 md:mt-3 md:mb-5 font-cardo flex flex-row'>
+        <div className='md:mx-9 md:mt-3 md:mb-5 font-cardo flex flex-row space-x-12'>
           <div className='flex space-x-4'>
             <img
               className='w-12 h-12 bg-no-repeat bg-center bg-cover'
@@ -278,27 +278,71 @@ export default function Home() {
           <div className='flex space-x-4'>
             <img
               className='w-12 h-12 bg-no-repeat bg-center bg-cover'
-              src={`${process.env.PUBLIC_URL}/img/fos.jpg`}
+              src={`${process.env.PUBLIC_URL}/img/net.jpg`}
               alt='Profile'
             />
-            <h1 className='md:text-3xl pt-2'>Writer</h1>
+            <h1 className='md:text-3xl pt-2'>Writing & Research</h1>
           </div>
           <div className='flex space-x-4'>
             <img
               className='w-12 h-12 bg-no-repeat bg-center bg-cover'
-              src={`${process.env.PUBLIC_URL}/img/fos.jpg`}
+              src={`${process.env.PUBLIC_URL}/img/stn.jpg`}
               alt='Profile'
             />
-            <h1 className='md:text-3xl pt-2'>Writer</h1>
+            <h1 className='md:text-3xl pt-2'>State Community Lead</h1>
           </div>
           <div className='flex space-x-4'>
             <img
               className='w-12 h-12 bg-no-repeat bg-center bg-cover'
-              src={`${process.env.PUBLIC_URL}/img/fos.jpg`}
+              src={`${process.env.PUBLIC_URL}/img/bou.jpg`}
               alt='Profile'
             />
-            <h1 className='md:text-3xl pt-2'>Writer</h1>
+            <h1 className='md:text-3xl pt-2'>Marketing</h1>
           </div>
+        </div>
+      </div>
+      <br />
+      <br />
+      <div>
+        <div className='flex flex-col items-center space-y-3 font-jersey font-bold text-4xl mb-8'>
+          <p>Looking to create the best written</p>
+          <p>content for your Web3 Project?</p>
+          <p>Send me a message now!</p>
+        </div>
+        <div className='flex justify-center space-x-6 mb-12 text-2xl'>
+          <a
+            href='/'
+            className=' dark:hover:text-main hover:underline underline-offset-4'
+          >
+            X(Twitter)
+          </a>
+          <a
+            href='/'
+            className=' dark:hover:text-main hover:underline underline-offset-4'
+          >
+            Telegram
+          </a>
+          <a
+            href='/'
+            className=' dark:hover:text-main hover:underline underline-offset-4'
+          >
+            Email
+          </a>
+          <a
+            href='/'
+            className=' dark:hover:text-main hover:underline underline-offset-4'
+          >
+            Substack
+          </a>
+          <a
+            href='/'
+            className=' dark:hover:text-main hover:underline underline-offset-4'
+          >
+            Medium
+          </a>
+        </div>
+        <div className='flex justify-center'>
+          <h1 className='text-9xl text-center font-bungee'>CONNECT WITH ME</h1>
         </div>
       </div>
     </article>

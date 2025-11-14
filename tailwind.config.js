@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sketch: ['"Cabin Sketch"', 'cursive'],
+        bungee: ['Bungee Shade', 'sans-serif'],
         cardo: ['Cardo', 'serif'],
         elms: ['Elms San', 'sans-serif'],
         lato: ['Lato', 'sans-serif'],
