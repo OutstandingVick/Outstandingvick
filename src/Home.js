@@ -345,6 +345,8 @@ export default function Home() {
           <h1 className='text-9xl text-center font-bungee'>CONNECT WITH ME</h1>
         </div>
       </div>
+      <br />
+      <br />
     </article>
   );
 }

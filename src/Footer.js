@@ -2,19 +2,18 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className='bg-slate-400 text-oxford bg-powder py-8 px-4 lg:px-6 overflow-hidden flex justify-center'>
-      <article className='grid grid-cols-1'>
+    <footer className='bg-main dark:bg-dain font-lato bg-powder py-8 px-4 lg:px-6 overflow-hidden flex justify-center'>
+      <article className='flex flex-col items-center'>
         <div className='container mx-auto flex justify-center'>
           <div className='text-center md:text-left font-suwannaphum mb-2'>
             <p className='font-bold text-base md:text-lg'>
-              Handcrafted by me &copy; {new Date().getFullYear()}{' '}
-              Outstandingvick. All rights reserved.
+              Handcrafted by Outstandingvick. &copy; {new Date().getFullYear()}{' '}
             </p>
           </div>
         </div>
         <div className='container mx-auto space-x-4 flex flex-row justify-center items-center'>
           <div className='text-center flex flex-col font-poiret'>
-            <p className='font-bold text-base'>Made with </p>
+            <p className='font-bold text-base'>Built with </p>
           </div>
           <div>
             <svg
