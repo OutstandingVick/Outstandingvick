@@ -263,43 +263,41 @@ export default function Home() {
       </div>
       <br />
       <div className='flex flex-col'>
-        <div className='flex justify-start md:mx-9 md:mt-5 md:mb-3'>
+        <div className='flex justify-start md:mx-9 md:mt-5 md:mb-5'>
           <h1 className='md:text-4xl font-elms font-bold'>Experience</h1>
         </div>
-        <div className='md:mx-9 md:mt-3 md:mb-5 font-cardo md:flex md:flex-row grid grid-cols-2 md:space-x-12 space-y-6'>
-          <div className='flex space-x-4'>
+        <div className='md:flex md:space-x-5 md:mx-9 grid grid-cols-2 text-2xl font-cardo'>
+          <div className='flex'>
             <img
               className='md:w-12 w-6 md:h-12 h-6 bg-no-repeat bg-center bg-cover'
               src={`${process.env.PUBLIC_URL}/img/fos.jpg`}
               alt='Profile'
             />
-            <h1 className='text-sm md:text-3xl md:pt-2'>Writer</h1>
+            <h1 className='m-2'>Writer</h1>
           </div>
-          <div className='flex space-x-4'>
+          <div className='flex'>
             <img
               className='md:w-12 w-6 md:h-12 h-6 bg-no-repeat bg-center bg-cover'
-              src={`${process.env.PUBLIC_URL}/img/net.jpg`}
+              src={`${process.env.PUBLIC_URL}/img/fos.jpg`}
               alt='Profile'
             />
-            <h1 className='text-sm md:text-3xl md:pt-2'>Writing & Research</h1>
+            <h1 className='m-2'>Writer</h1>
           </div>
-          <div className='flex space-x-4'>
+          <div className='flex'>
             <img
               className='md:w-12 w-6 md:h-12 h-6 bg-no-repeat bg-center bg-cover'
-              src={`${process.env.PUBLIC_URL}/img/stn.jpg`}
+              src={`${process.env.PUBLIC_URL}/img/fos.jpg`}
               alt='Profile'
             />
-            <h1 className='text-sm md:text-3xl md:pt-2'>
-              State Community Lead
-            </h1>
+            <h1 className='m-2'>Writer</h1>
           </div>
-          <div className='flex space-x-4'>
+          <div className='flex'>
             <img
               className='md:w-12 w-6 md:h-12 h-6 bg-no-repeat bg-center bg-cover'
-              src={`${process.env.PUBLIC_URL}/img/bou.jpg`}
+              src={`${process.env.PUBLIC_URL}/img/fos.jpg`}
               alt='Profile'
             />
-            <h1 className='text-sm md:text-3xl md:pt-2'>Marketing</h1>
+            <h1 className='m-2'>Writer</h1>
           </div>
         </div>
       </div>
