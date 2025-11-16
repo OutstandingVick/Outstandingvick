@@ -1,5 +1,4 @@
 import React from 'react';
-import { GoSun } from 'react-icons/go';
 import { SiSolana } from 'react-icons/si';
 
 export default function Home() {
@@ -51,8 +50,10 @@ export default function Home() {
         </button>
       </div>
       <br />
-      <div className='flex flex-col md:flex-row mx-12 md:m-16 justify-between '>
-        <h1 className='md:text-6xl font-elms'>Featured Works</h1>
+      <div className='flex flex-col md:flex-row md:mx-12 md:m-16 justify-between '>
+        <h1 className='md:text-6xl text-2xl font-elms font-bold'>
+          Featured Works
+        </h1>
         <div className='md:text-lg mt-2 font-cardo'>
           <p>
             A curated set of projects from research papers to articles to mix of
@@ -61,20 +62,22 @@ export default function Home() {
           <p>built with creativity, readability, and engagement in mind.</p>
         </div>
       </div>
-      <div className='mx-14 grid md:grid-cols-3 gap-8 justify-center'>
-        <div className='rounded-3xl border border-support dark:border-main w-96 px-6 py-8 hover:bg-gradient-to-r hover:from-caro hover:to-cele transition-all duration-300'>
+      <div className='mx-14 mt-4 md:mt-0 grid md:grid-cols-3 gap-8 justify-center'>
+        <div className='rounded-3xl border border-support dark:border-main w-72 md:w-96 px-6 py-8 hover:bg-gradient-to-r hover:from-caro hover:to-cele transition-all duration-300'>
           <div className='flex justify-between mb-8'>
             <button className='p-3 bg-gradient-to-tr from-purp to-dide rounded-xl'>
               <SiSolana />
             </button>
             <p className='bg-tange p-3 rounded-3xl text-sm'>Solana</p>
           </div>
-          <h1 className='text-3xl font-advent font-bold'>Ribh Discover Rice</h1>
-          <p className='text-lg py-4'>
+          <h1 className='md:text-3xl text-xl font-advent font-bold'>
+            Ribh Discover Rice
+          </h1>
+          <p className='md:text-lg text-sm py-4'>
             A website for a top class barbing salon to deliver exquisite styling
             to their clients.
           </p>
-          <div className='flex flex-row justify-around py-4 dark:text-main pb-20'>
+          <div className='flex flex-row justify-around py-4 dark:text-main pb-5 md:pb-20 md:text-base text-sm'>
             <p className='px-2 py-2 rounded-3xl border dark:border-main dark:text-main  text-support border-support'>
               Creative
             </p>
@@ -85,25 +88,27 @@ export default function Home() {
               DeFi
             </p>
           </div>
-          <div className='flex justify-center mt-6 mb-4'>
-            <button className='text-lg px-4 py-3 rounded-3xl border dark:border-main dark:text-main text-support border-support'>
+          <div className='flex justify-center mt-2 md:mt-6 md:mb-4 mb-1'>
+            <button className='md:text-lg px-4 py-3 rounded-3xl border dark:border-main dark:text-main text-support border-support text-base'>
               Read More
             </button>
           </div>
         </div>
-        <div className='rounded-3xl border border-support dark:border-main w-96 px-6 py-8 hover:bg-gradient-to-r hover:from-caro hover:to-cele transition-all duration-300'>
+        <div className='rounded-3xl border border-support dark:border-main w-72 md:w-96 px-6 py-8 hover:bg-gradient-to-r hover:from-caro hover:to-cele transition-all duration-300'>
           <div className='flex justify-between mb-8'>
             <button className='p-3 bg-gradient-to-tr from-purp to-dide rounded-xl'>
-              <GoSun />
+              <SiSolana />
             </button>
             <p className='bg-tange p-3 rounded-3xl text-sm'>Solana</p>
           </div>
-          <h1 className='text-3xl font-advent font-bold'>Ribh Discover Rice</h1>
-          <p className='text-lg py-4'>
+          <h1 className='md:text-3xl text-xl font-advent font-bold'>
+            Ribh Discover Rice
+          </h1>
+          <p className='md:text-lg text-sm py-4'>
             A website for a top class barbing salon to deliver exquisite styling
             to their clients.
           </p>
-          <div className='flex flex-row justify-around py-4 dark:text-main pb-20'>
+          <div className='flex flex-row justify-around py-4 dark:text-main pb-5 md:pb-20 md:text-base text-sm'>
             <p className='px-2 py-2 rounded-3xl border dark:border-main dark:text-main  text-support border-support'>
               Creative
             </p>
@@ -114,25 +119,27 @@ export default function Home() {
               DeFi
             </p>
           </div>
-          <div className='flex justify-center mt-6 mb-4'>
-            <button className='text-lg px-4 py-3 rounded-3xl border dark:border-main dark:text-main text-support border-support'>
+          <div className='flex justify-center mt-2 md:mt-6 md:mb-4 mb-1'>
+            <button className='md:text-lg px-4 py-3 rounded-3xl border dark:border-main dark:text-main text-support border-support text-base'>
               Read More
             </button>
           </div>
         </div>
-        <div className='rounded-3xl border border-support dark:border-main w-96 px-6 py-8 hover:bg-gradient-to-r hover:from-caro hover:to-cele transition-all duration-300'>
+        <div className='rounded-3xl border border-support dark:border-main w-72 md:w-96 px-6 py-8 hover:bg-gradient-to-r hover:from-caro hover:to-cele transition-all duration-300'>
           <div className='flex justify-between mb-8'>
             <button className='p-3 bg-gradient-to-tr from-purp to-dide rounded-xl'>
-              <GoSun />
+              <SiSolana />
             </button>
             <p className='bg-tange p-3 rounded-3xl text-sm'>Solana</p>
           </div>
-          <h1 className='text-3xl font-advent font-bold'>Ribh Discover Rice</h1>
-          <p className='text-lg py-4'>
+          <h1 className='md:text-3xl text-xl font-advent font-bold'>
+            Ribh Discover Rice
+          </h1>
+          <p className='md:text-lg text-sm py-4'>
             A website for a top class barbing salon to deliver exquisite styling
             to their clients.
           </p>
-          <div className='flex flex-row justify-around py-4 dark:text-main pb-20'>
+          <div className='flex flex-row justify-around py-4 dark:text-main pb-5 md:pb-20 md:text-base text-sm'>
             <p className='px-2 py-2 rounded-3xl border dark:border-main dark:text-main  text-support border-support'>
               Creative
             </p>
@@ -143,25 +150,27 @@ export default function Home() {
               DeFi
             </p>
           </div>
-          <div className='flex justify-center mt-6 mb-4'>
-            <button className='text-lg px-4 py-3 rounded-3xl border dark:border-main dark:text-main text-support border-support'>
+          <div className='flex justify-center mt-2 md:mt-6 md:mb-4 mb-1'>
+            <button className='md:text-lg px-4 py-3 rounded-3xl border dark:border-main dark:text-main text-support border-support text-base'>
               Read More
             </button>
           </div>
         </div>
-        <div className='rounded-3xl border border-support dark:border-main w-96 px-6 py-8 hover:bg-gradient-to-r hover:from-caro hover:to-cele transition-all duration-300'>
+        <div className='rounded-3xl border border-support dark:border-main w-72 md:w-96 px-6 py-8 hover:bg-gradient-to-r hover:from-caro hover:to-cele transition-all duration-300'>
           <div className='flex justify-between mb-8'>
             <button className='p-3 bg-gradient-to-tr from-purp to-dide rounded-xl'>
-              <GoSun />
+              <SiSolana />
             </button>
             <p className='bg-tange p-3 rounded-3xl text-sm'>Solana</p>
           </div>
-          <h1 className='text-3xl font-advent font-bold'>Ribh Discover Rice</h1>
-          <p className='text-lg py-4'>
+          <h1 className='md:text-3xl text-xl font-advent font-bold'>
+            Ribh Discover Rice
+          </h1>
+          <p className='md:text-lg text-sm py-4'>
             A website for a top class barbing salon to deliver exquisite styling
             to their clients.
           </p>
-          <div className='flex flex-row justify-around py-4 dark:text-main pb-20'>
+          <div className='flex flex-row justify-around py-4 dark:text-main pb-5 md:pb-20 md:text-base text-sm'>
             <p className='px-2 py-2 rounded-3xl border dark:border-main dark:text-main  text-support border-support'>
               Creative
             </p>
@@ -172,25 +181,27 @@ export default function Home() {
               DeFi
             </p>
           </div>
-          <div className='flex justify-center mt-6 mb-4'>
-            <button className='text-lg px-4 py-3 rounded-3xl border dark:border-main dark:text-main text-support border-support'>
+          <div className='flex justify-center mt-2 md:mt-6 md:mb-4 mb-1'>
+            <button className='md:text-lg px-4 py-3 rounded-3xl border dark:border-main dark:text-main text-support border-support text-base'>
               Read More
             </button>
           </div>
         </div>
-        <div className='rounded-3xl border border-support dark:border-main w-96 px-6 py-8 hover:bg-gradient-to-r hover:from-caro hover:to-cele transition-all duration-300'>
+        <div className='rounded-3xl border border-support dark:border-main w-72 md:w-96 px-6 py-8 hover:bg-gradient-to-r hover:from-caro hover:to-cele transition-all duration-300'>
           <div className='flex justify-between mb-8'>
             <button className='p-3 bg-gradient-to-tr from-purp to-dide rounded-xl'>
-              <GoSun />
+              <SiSolana />
             </button>
             <p className='bg-tange p-3 rounded-3xl text-sm'>Solana</p>
           </div>
-          <h1 className='text-3xl font-advent font-bold'>Ribh Discover Rice</h1>
-          <p className='text-lg py-4'>
+          <h1 className='md:text-3xl text-xl font-advent font-bold'>
+            Ribh Discover Rice
+          </h1>
+          <p className='md:text-lg text-sm py-4'>
             A website for a top class barbing salon to deliver exquisite styling
             to their clients.
           </p>
-          <div className='flex flex-row justify-around py-4 dark:text-main pb-20'>
+          <div className='flex flex-row justify-around py-4 dark:text-main pb-5 md:pb-20 md:text-base text-sm'>
             <p className='px-2 py-2 rounded-3xl border dark:border-main dark:text-main  text-support border-support'>
               Creative
             </p>
@@ -201,25 +212,27 @@ export default function Home() {
               DeFi
             </p>
           </div>
-          <div className='flex justify-center mt-6 mb-4'>
-            <button className='text-lg px-4 py-3 rounded-3xl border dark:border-main dark:text-main text-support border-support'>
+          <div className='flex justify-center mt-2 md:mt-6 md:mb-4 mb-1'>
+            <button className='md:text-lg px-4 py-3 rounded-3xl border dark:border-main dark:text-main text-support border-support text-base'>
               Read More
             </button>
           </div>
         </div>
-        <div className='rounded-3xl border border-support dark:border-main w-96 px-6 py-8 hover:bg-gradient-to-r hover:from-caro hover:to-cele transition-all duration-300'>
+        <div className='rounded-3xl border border-support dark:border-main w-72 md:w-96 px-6 py-8 hover:bg-gradient-to-r hover:from-caro hover:to-cele transition-all duration-300'>
           <div className='flex justify-between mb-8'>
             <button className='p-3 bg-gradient-to-tr from-purp to-dide rounded-xl'>
-              <GoSun />
+              <SiSolana />
             </button>
             <p className='bg-tange p-3 rounded-3xl text-sm'>Solana</p>
           </div>
-          <h1 className='text-3xl font-advent font-bold'>Ribh Discover Rice</h1>
-          <p className='text-lg py-4'>
+          <h1 className='md:text-3xl text-xl font-advent font-bold'>
+            Ribh Discover Rice
+          </h1>
+          <p className='md:text-lg text-sm py-4'>
             A website for a top class barbing salon to deliver exquisite styling
             to their clients.
           </p>
-          <div className='flex flex-row justify-around py-4 dark:text-main pb-20'>
+          <div className='flex flex-row justify-around py-4 dark:text-main pb-5 md:pb-20 md:text-base text-sm'>
             <p className='px-2 py-2 rounded-3xl border dark:border-main dark:text-main  text-support border-support'>
               Creative
             </p>
@@ -230,16 +243,16 @@ export default function Home() {
               DeFi
             </p>
           </div>
-          <div className='flex justify-center mt-6 mb-4'>
-            <button className='text-lg px-4 py-3 rounded-3xl border dark:border-main dark:text-main text-support border-support'>
+          <div className='flex justify-center mt-2 md:mt-6 md:mb-4 mb-1'>
+            <button className='md:text-lg px-4 py-3 rounded-3xl border dark:border-main dark:text-main text-support border-support text-base'>
               Read More
             </button>
           </div>
         </div>
       </div>
       <br />
-      <div className='flex flex-col md:flex-row md:mx-9 md:my-7 justify-between'>
-        <h1 className='md:text-5xl font-elms font-bold'>About Me</h1>
+      <div className='flex flex-col md:flex-row md:mx-9 md:my-6 justify-between'>
+        <h1 className='md:text-5xl text-2xl font-elms font-bold'>About Me</h1>
         <div className='md:text-xl mt-2 font-cardo'>
           <p>
             A short description of myself, the skills I possess, the services I
@@ -248,8 +261,8 @@ export default function Home() {
           <p>and the different capacities I've exercised these services in.</p>
         </div>
       </div>
-      <div className='mx-9'>
-        <p className='md:text-xl font-cardo'>
+      <div className='md:mx-9 mt-7 md:mt-0'>
+        <p className='md:text-xl font-cardo font-bold'>
           I’m a Web3 writer, researcher, community manager, and state lead
           passionate about building meaningful connections in the Solana
           ecosystem. With a mix of storytelling and strategy, I help projects
@@ -263,48 +276,51 @@ export default function Home() {
       </div>
       <br />
       <div className='flex flex-col'>
-        <div className='flex justify-start md:mx-9 md:mt-5 md:mb-5'>
-          <h1 className='md:text-4xl font-elms font-bold'>Experience</h1>
+        <div className='flex justify-start md:mx-9 md:mt-5 md:mb-5 mb-2'>
+          <h1 className='md:text-4xl text-2xl  font-elms font-bold'>
+            Experience
+          </h1>
         </div>
-        <div className='md:flex md:space-x-5 md:mx-9 grid grid-cols-2 text-2xl font-cardo'>
-          <div className='flex'>
+        <div className='md:flex md:space-x-8 space-x-0 md:space-y-0 space-y-3 md:mx-9 grid grid-cols-1 md:text-3xl text-xl font-cardo'>
+          <div className='flex md:space-x-0 space-x-2'>
             <img
               className='md:w-12 w-6 md:h-12 h-6 bg-no-repeat bg-center bg-cover'
               src={`${process.env.PUBLIC_URL}/img/fos.jpg`}
               alt='Profile'
             />
-            <h1 className='m-2'>Writer</h1>
+            <h1 className='md:m-2'>Writer</h1>
           </div>
-          <div className='flex'>
+          <div className='flex md:space-x-0 space-x-2'>
             <img
               className='md:w-12 w-6 md:h-12 h-6 bg-no-repeat bg-center bg-cover'
-              src={`${process.env.PUBLIC_URL}/img/fos.jpg`}
+              src={`${process.env.PUBLIC_URL}/img/net.jpg`}
               alt='Profile'
             />
-            <h1 className='m-2'>Writer</h1>
+            <h1 className='md:m-2'>Writing & Research</h1>
           </div>
-          <div className='flex'>
+          <div className='flex md:space-x-0 space-x-2'>
             <img
               className='md:w-12 w-6 md:h-12 h-6 bg-no-repeat bg-center bg-cover'
-              src={`${process.env.PUBLIC_URL}/img/fos.jpg`}
+              src={`${process.env.PUBLIC_URL}/img/stn.jpg`}
               alt='Profile'
             />
-            <h1 className='m-2'>Writer</h1>
+            <h1 className='md:m-2'>State Commmunity Lead</h1>
           </div>
-          <div className='flex'>
+
+          <div className='flex md:space-x-0 space-x-2'>
             <img
               className='md:w-12 w-6 md:h-12 h-6 bg-no-repeat bg-center bg-cover'
-              src={`${process.env.PUBLIC_URL}/img/fos.jpg`}
+              src={`${process.env.PUBLIC_URL}/img/bou.jpg`}
               alt='Profile'
             />
-            <h1 className='m-2'>Writer</h1>
+            <h1 className='md:m-2'>Marketing</h1>
           </div>
         </div>
       </div>
       <br />
       <br />
       <div>
-        <div className='flex flex-col items-center space-y-3 font-jersey font-bold text-xl md:text-4xl mb-8'>
+        <div className='flex flex-col items-center space-y-3 font-jersey font-bold text-lg md:text-4xl mb-8'>
           <p>Looking to create the best written</p>
           <p>content for your Web3 Project?</p>
           <p>Send me a message now!</p>
@@ -342,7 +358,7 @@ export default function Home() {
           </a>
         </div>
         <div className='flex justify-center'>
-          <h1 className='text-4xl md:text-9xl text-center font-bungee'>
+          <h1 className='text-5xl md:text-9xl text-center font-bungee'>
             CONNECT WITH ME
           </h1>
         </div>
