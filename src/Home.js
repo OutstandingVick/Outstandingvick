@@ -101,6 +101,181 @@ export default function Home() {
             </a>
           </div>
         </div>
+        <div className='rounded-3xl border border-support dark:border-main w-72 md:w-96 px-6 py-8 hover:bg-gradient-to-r hover:from-caro hover:to-cele dark:hover:text-support transition-all duration-300'>
+          <div className='flex justify-between mb-8'>
+            <button className='p-3 text-support bg-gradient-to-tr from-purp to-dide rounded-xl'>
+              <SiSolana />
+            </button>
+            <p className='bg-tange p-3 rounded-3xl text-sm text-support'>
+              Solblaze
+            </p>
+          </div>
+          <h1 className='md:text-2xl text-xl font-jersey font-bold'>
+            Liquid Staking on Solana: The Solblaze Ecosystem
+          </h1>
+          <p className='md:text-lg text-sm py-4'>
+            A creative technical research paper exploring the Solblaze liquid
+            staking product base
+          </p>
+          <div className='flex flex-row justify-around py-4 dark:hover:text-support text-support dark:text-main pb-5 md:pb-20 md:text-base text-sm'>
+            <p className='px-3 py-2 rounded-2xl border dark:border-main border-support'>
+              Creative
+            </p>
+            <p className='px-3 py-2 rounded-2xl border dark:border-main border-support'>
+              Technical
+            </p>
+            <p className='px-3 py-2 rounded-2xl border dark:border-main border-support'>
+              DeFi
+            </p>
+          </div>
+          <div className='flex justify-center mt-2 md:mt-6 md:mb-4 mb-1'>
+            <a href='https://drive.google.com/file/d/1-6qoED6N8ZugmRi01mVfj05FAA1A8-LP/view'>
+              <button className='md:text-lg px-4 py-3 rounded-2xl border dark:border-main dark:text-main dark:hover:text-support text-support border-support text-base'>
+                Read More
+              </button>
+            </a>
+          </div>
+        </div>
+        <div className='rounded-3xl border border-support dark:border-main w-72 md:w-96 px-6 py-8 hover:bg-gradient-to-r hover:from-caro hover:to-cele dark:hover:text-support transition-all duration-300'>
+          <div className='flex justify-between mb-8'>
+            <button className='p-3 text-support bg-gradient-to-tr from-purp to-dide rounded-xl'>
+              <SiSolana />
+            </button>
+            <p className='bg-tange p-3 rounded-3xl text-sm text-support'>
+              Solblaze
+            </p>
+          </div>
+          <h1 className='md:text-2xl text-xl font-jersey font-bold'>
+            Liquid Staking on Solana: The Solblaze Ecosystem
+          </h1>
+          <p className='md:text-lg text-sm py-4'>
+            A creative technical research paper exploring the Solblaze liquid
+            staking product base
+          </p>
+          <div className='flex flex-row justify-around py-4 dark:hover:text-support text-support dark:text-main pb-5 md:pb-20 md:text-base text-sm'>
+            <p className='px-3 py-2 rounded-2xl border dark:border-main border-support'>
+              Creative
+            </p>
+            <p className='px-3 py-2 rounded-2xl border dark:border-main border-support'>
+              Technical
+            </p>
+            <p className='px-3 py-2 rounded-2xl border dark:border-main border-support'>
+              DeFi
+            </p>
+          </div>
+          <div className='flex justify-center mt-2 md:mt-6 md:mb-4 mb-1'>
+            <a href='https://drive.google.com/file/d/1-6qoED6N8ZugmRi01mVfj05FAA1A8-LP/view'>
+              <button className='md:text-lg px-4 py-3 rounded-2xl border dark:border-main dark:text-main dark:hover:text-support text-support border-support text-base'>
+                Read More
+              </button>
+            </a>
+          </div>
+        </div>
+        <div className='rounded-3xl border border-support dark:border-main w-72 md:w-96 px-6 py-8 hover:bg-gradient-to-r hover:from-caro hover:to-cele dark:hover:text-support transition-all duration-300'>
+          <div className='flex justify-between mb-8'>
+            <button className='p-3 text-support bg-gradient-to-tr from-purp to-dide rounded-xl'>
+              <SiSolana />
+            </button>
+            <p className='bg-tange p-3 rounded-3xl text-sm text-support'>
+              Solblaze
+            </p>
+          </div>
+          <h1 className='md:text-2xl text-xl font-jersey font-bold'>
+            Liquid Staking on Solana: The Solblaze Ecosystem
+          </h1>
+          <p className='md:text-lg text-sm py-4'>
+            A creative technical research paper exploring the Solblaze liquid
+            staking product base
+          </p>
+          <div className='flex flex-row justify-around py-4 dark:hover:text-support text-support dark:text-main pb-5 md:pb-20 md:text-base text-sm'>
+            <p className='px-3 py-2 rounded-2xl border dark:border-main border-support'>
+              Creative
+            </p>
+            <p className='px-3 py-2 rounded-2xl border dark:border-main border-support'>
+              Technical
+            </p>
+            <p className='px-3 py-2 rounded-2xl border dark:border-main border-support'>
+              DeFi
+            </p>
+          </div>
+          <div className='flex justify-center mt-2 md:mt-6 md:mb-4 mb-1'>
+            <a href='https://drive.google.com/file/d/1-6qoED6N8ZugmRi01mVfj05FAA1A8-LP/view'>
+              <button className='md:text-lg px-4 py-3 rounded-2xl border dark:border-main dark:text-main dark:hover:text-support text-support border-support text-base'>
+                Read More
+              </button>
+            </a>
+          </div>
+        </div>
+        <div className='rounded-3xl border border-support dark:border-main w-72 md:w-96 px-6 py-8 hover:bg-gradient-to-r hover:from-caro hover:to-cele dark:hover:text-support transition-all duration-300'>
+          <div className='flex justify-between mb-8'>
+            <button className='p-3 text-support bg-gradient-to-tr from-purp to-dide rounded-xl'>
+              <SiSolana />
+            </button>
+            <p className='bg-tange p-3 rounded-3xl text-sm text-support'>
+              Solblaze
+            </p>
+          </div>
+          <h1 className='md:text-2xl text-xl font-jersey font-bold'>
+            Liquid Staking on Solana: The Solblaze Ecosystem
+          </h1>
+          <p className='md:text-lg text-sm py-4'>
+            A creative technical research paper exploring the Solblaze liquid
+            staking product base
+          </p>
+          <div className='flex flex-row justify-around py-4 dark:hover:text-support text-support dark:text-main pb-5 md:pb-20 md:text-base text-sm'>
+            <p className='px-3 py-2 rounded-2xl border dark:border-main border-support'>
+              Creative
+            </p>
+            <p className='px-3 py-2 rounded-2xl border dark:border-main border-support'>
+              Technical
+            </p>
+            <p className='px-3 py-2 rounded-2xl border dark:border-main border-support'>
+              DeFi
+            </p>
+          </div>
+          <div className='flex justify-center mt-2 md:mt-6 md:mb-4 mb-1'>
+            <a href='https://drive.google.com/file/d/1-6qoED6N8ZugmRi01mVfj05FAA1A8-LP/view'>
+              <button className='md:text-lg px-4 py-3 rounded-2xl border dark:border-main dark:text-main dark:hover:text-support text-support border-support text-base'>
+                Read More
+              </button>
+            </a>
+          </div>
+        </div>
+        <div className='rounded-3xl border border-support dark:border-main w-72 md:w-96 px-6 py-8 hover:bg-gradient-to-r hover:from-caro hover:to-cele dark:hover:text-support transition-all duration-300'>
+          <div className='flex justify-between mb-8'>
+            <button className='p-3 text-support bg-gradient-to-tr from-purp to-dide rounded-xl'>
+              <SiSolana />
+            </button>
+            <p className='bg-tange p-3 rounded-3xl text-sm text-support'>
+              Solblaze
+            </p>
+          </div>
+          <h1 className='md:text-2xl text-xl font-jersey font-bold'>
+            Liquid Staking on Solana: The Solblaze Ecosystem
+          </h1>
+          <p className='md:text-lg text-sm py-4'>
+            A creative technical research paper exploring the Solblaze liquid
+            staking product base
+          </p>
+          <div className='flex flex-row justify-around py-4 dark:hover:text-support text-support dark:text-main pb-5 md:pb-20 md:text-base text-sm'>
+            <p className='px-3 py-2 rounded-2xl border dark:border-main border-support'>
+              Creative
+            </p>
+            <p className='px-3 py-2 rounded-2xl border dark:border-main border-support'>
+              Technical
+            </p>
+            <p className='px-3 py-2 rounded-2xl border dark:border-main border-support'>
+              DeFi
+            </p>
+          </div>
+          <div className='flex justify-center mt-2 md:mt-6 md:mb-4 mb-1'>
+            <a href='https://drive.google.com/file/d/1-6qoED6N8ZugmRi01mVfj05FAA1A8-LP/view'>
+              <button className='md:text-lg px-4 py-3 rounded-2xl border dark:border-main dark:text-main dark:hover:text-support text-support border-support text-base'>
+                Read More
+              </button>
+            </a>
+          </div>
+        </div>
       </div>
       <br />
       <div className='flex flex-col md:flex-row md:mx-9 md:my-6 justify-between'>
@@ -134,7 +309,7 @@ export default function Home() {
           </h1>
         </div>
         <div className='md:flex md:space-x-8 space-x-0 md:space-y-0 space-y-3 md:mx-9 grid grid-cols-1 md:text-3xl text-xl font-cardo'>
-          <div className='flex md:space-x-0 space-x-2'>
+          <div className='flex space-x-2'>
             <img
               className='md:w-12 w-6 md:h-12 h-6 bg-no-repeat bg-center bg-cover'
               src={`${process.env.PUBLIC_URL}/img/fos.jpg`}
@@ -142,15 +317,15 @@ export default function Home() {
             />
             <h1 className='md:m-2'>Writer</h1>
           </div>
-          <div className='flex md:space-x-0 space-x-2'>
+          <div className='flex space-x-2'>
             <img
               className='md:w-12 w-6 md:h-12 h-6 bg-no-repeat bg-center bg-cover'
-              src={`${process.env.PUBLIC_URL}/img/net.jpg`}
+              src={`${process.env.PUBLIC_URL}/img/bou.jpg`}
               alt='Profile'
             />
-            <h1 className='md:m-2'>Writing & Research</h1>
+            <h1 className='md:m-2'>Marketing</h1>
           </div>
-          <div className='flex md:space-x-0 space-x-2'>
+          <div className='flex space-x-2'>
             <img
               className='md:w-12 w-6 md:h-12 h-6 bg-no-repeat bg-center bg-cover'
               src={`${process.env.PUBLIC_URL}/img/stn.jpg`}
@@ -158,14 +333,13 @@ export default function Home() {
             />
             <h1 className='md:m-2'>State Commmunity Lead</h1>
           </div>
-
-          <div className='flex md:space-x-0 space-x-2'>
+          <div className='flex mspace-x-2'>
             <img
               className='md:w-12 w-6 md:h-12 h-6 bg-no-repeat bg-center bg-cover'
-              src={`${process.env.PUBLIC_URL}/img/bou.jpg`}
+              src={`${process.env.PUBLIC_URL}/img/net.jpg`}
               alt='Profile'
             />
-            <h1 className='md:m-2'>Marketing</h1>
+            <h1 className='md:m-2'>Writing & Research</h1>
           </div>
         </div>
       </div>

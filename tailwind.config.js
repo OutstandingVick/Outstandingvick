@@ -11,6 +11,7 @@ module.exports = {
         lato: ['Lato', 'sans-serif'],
         advent: ['Advent Pro', 'sans-serif'],
         jersey: ['Jersey 25', 'sans-serif'],
+        crimson: ['Crimson Text', 'serif'],
       },
       colors: {
         main: '#F5B700',
@@ -22,6 +23,7 @@ module.exports = {
         cele: '#2892D7',
         tange: '#F58A07',
         purp: '#5F00BA',
+        jas: '#F4D06F',
       },
     },
   },

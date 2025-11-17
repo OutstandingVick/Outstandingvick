@@ -8,22 +8,25 @@ export default function Navbar() {
   const { toggleTheme } = useTheme();
 
   return (
-    <nav className='font-lato dark:bg-dain dark:text-main text-support bg-main py-2'>
+    <nav className='font-crimson dark:bg-dain dark:text-main text-support bg-main py-2'>
       <div className='flex items-center justify-between'>
         <div className='flex items-center space-x-2'>
           <div className='p-2'>
             <img
-              className='rounded-full w-12 h-12 bg-no-repeat bg-center bg-cover'
+              className='rounded-full md:w-14 md:h-14 w-11 h-11 bg-no-repeat bg-center bg-cover'
               src={`${process.env.PUBLIC_URL}/img/prof.jpg`}
               alt='Profile'
             />
           </div>
-          <div className='font-elms flex flex-col'>
-            <h1 className='font-semibold text-xl  dark:hover:text-main hover:text-side'>
-              Oustandingvick
-            </h1>
-            <h2 className='text-lg text-dain dark:hover:text-main hover:text-side'>
-              Solana-obsessed Writer and Researcher
+          <div className='flex flex-col'>
+            <a href='/'>
+              <h1 className='font-semibold md:text-xl  dark:hover:text-main hover:text-side'>
+                Oustandingvick
+              </h1>
+            </a>
+
+            <h2 className='text-sm md:text-lg dark:text-jas text-dain dark:hover:text-main hover:text-side'>
+              Web3 Writer and Researcher
             </h2>
           </div>
         </div>
