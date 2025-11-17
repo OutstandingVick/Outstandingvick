@@ -43,19 +43,19 @@ export default function Navbar() {
             Works
           </a>
           <a
-            href='/'
+            href='#about'
             className='hover:text-side dark:hover:text-main hover:underline underline-offset-4'
           >
             About
           </a>
           <a
-            href='/'
+            href='#experience'
             className='hover:text-side dark:hover:text-main hover:underline underline-offset-4'
           >
             Experience
           </a>
           <a
-            href='/'
+            href='#contact'
             className='hover:text-side dark:hover:text-main hover:underline underline-offset-4'
           >
             Contact
@@ -65,9 +65,9 @@ export default function Navbar() {
         <div className='md:hidden bg-transparent'>
           <button onClick={() => setIsOpen(!isOpen)}>
             {isOpen ? (
-              <X className='hover:text-side dark:hover:text-main dark:text-side text-support w-7 h-7' />
+              <X className='hover:text-side dark:hover:text-dide dark:text-main text-support w-7 h-7' />
             ) : (
-              <Menu className='hover:text-side dark:hover:text-main dark:text-side text-support w-7 h-7' />
+              <Menu className='hover:text-side dark:hover:text-dide dark:text-main text-support w-7 h-7' />
             )}
           </button>
         </div>
@@ -75,28 +75,28 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className='md:hidden mt-4 space-y-3 text-center dark:text-side text-support font-lato font-semibold'>
+        <div className='md:hidden mt-4 space-y-3 text-center dark:text-main dark:hover:text-dide text-support font-lato font-semibold'>
           <a
-            href='/'
-            className='block hover:text-side dark:hover:text-main hover:underline underline-offset-4'
+            href='#works'
+            className='block hover:text-side hover:underline underline-offset-4'
           >
             Works
           </a>
           <a
-            href='/'
-            className='block hover:text-side dark:hover:text-main hover:underline underline-offset-4'
+            href='#about'
+            className='block hover:text-side hover:underline underline-offset-4'
           >
-            Services
+            About
           </a>
           <a
-            href='/'
-            className='block hover:text-side dark:hover:text-main hover:underline underline-offset-4'
+            href='#experience'
+            className='block hover:text-side hover:underline underline-offset-4'
           >
             Experience
           </a>
           <a
-            href='/'
-            className='block hover:text-side dark:hover:text-main hover:underline underline-offset-4'
+            href='#contact'
+            className='block hover:text-side hover:underline underline-offset-4'
           >
             Contact
           </a>

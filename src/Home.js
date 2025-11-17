@@ -288,7 +288,7 @@ export default function Home() {
           <p>and the different capacities I've exercised these services in.</p>
         </div>
       </div>
-      <div className='md:mx-9 mt-7 md:mt-0'>
+      <div id='about' className='md:mx-9 mt-7 md:mt-0'>
         <p className='md:text-xl font-cardo font-bold'>
           I’m a Web3 writer, researcher, community manager, and state lead
           passionate about building meaningful connections in the Solana
@@ -302,7 +302,7 @@ export default function Home() {
         </p>
       </div>
       <br />
-      <div className='flex flex-col'>
+      <div id='experience' className='flex flex-col'>
         <div className='flex justify-start md:mx-9 md:mt-5 md:mb-5 mb-2'>
           <h1 className='md:text-4xl text-2xl  font-elms font-bold'>
             Experience
@@ -345,7 +345,7 @@ export default function Home() {
       </div>
       <br />
       <br />
-      <div>
+      <div id='contact'>
         <div className='flex flex-col items-center space-y-3 font-jersey font-bold text-lg md:text-4xl mb-8'>
           <p>Looking to create the best written</p>
           <p>content for your Web3 Project?</p>
