@@ -18,18 +18,23 @@ export default function Navbar() {
               alt='Profile'
             />
           </div>
-          <h1 className='font-crimson font-semibold text-xl  dark:hover:text-main hover:text-side'>
-            Oustandingvick
-          </h1>
+          <div className='font-elms flex flex-col'>
+            <h1 className='font-semibold text-xl  dark:hover:text-main hover:text-side'>
+              Oustandingvick
+            </h1>
+            <h2 className='text-lg text-dain dark:hover:text-main hover:text-side'>
+              Solana-obsessed Writer and Researcher
+            </h2>
+          </div>
         </div>
 
         <button onClick={toggleTheme}>
           <GoSun />
         </button>
 
-        <div className='text-lg font-varela hidden md:flex space-x-8 font-semibold'>
+        <div className='text-lg hidden md:flex space-x-8 font-semibold'>
           <a
-            href='/'
+            href='#works'
             className='hover:text-side  dark:hover:text-main hover:underline underline-offset-4'
           >
             Works

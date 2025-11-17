@@ -62,191 +62,43 @@ export default function Home() {
           <p>built with creativity, readability, and engagement in mind.</p>
         </div>
       </div>
-      <div className='mx-14 mt-4 md:mt-0 grid md:grid-cols-3 gap-8 justify-center'>
-        <div className='rounded-3xl border border-support dark:border-main w-72 md:w-96 px-6 py-8 hover:bg-gradient-to-r hover:from-caro hover:to-cele transition-all duration-300'>
+      <div
+        id='works'
+        className='mx-14 mt-4 md:mt-0 grid md:grid-cols-3 gap-8 justify-center'
+      >
+        <div className='rounded-3xl border border-support dark:border-main w-72 md:w-96 px-6 py-8 hover:bg-gradient-to-r hover:from-caro hover:to-cele dark:hover:text-support transition-all duration-300'>
           <div className='flex justify-between mb-8'>
-            <button className='p-3 bg-gradient-to-tr from-purp to-dide rounded-xl'>
+            <button className='p-3 text-support bg-gradient-to-tr from-purp to-dide rounded-xl'>
               <SiSolana />
             </button>
-            <p className='bg-tange p-3 rounded-3xl text-sm'>Solana</p>
+            <p className='bg-tange p-3 rounded-3xl text-sm text-support'>
+              Solblaze
+            </p>
           </div>
-          <h1 className='md:text-3xl text-xl font-advent font-bold'>
-            Ribh Discover Rice
+          <h1 className='md:text-2xl text-xl font-jersey font-bold'>
+            Liquid Staking on Solana: The Solblaze Ecosystem
           </h1>
           <p className='md:text-lg text-sm py-4'>
-            A website for a top class barbing salon to deliver exquisite styling
-            to their clients.
+            A creative technical research paper exploring the Solblaze liquid
+            staking product base
           </p>
-          <div className='flex flex-row justify-around py-4 dark:text-main pb-5 md:pb-20 md:text-base text-sm'>
-            <p className='px-2 py-2 rounded-3xl border dark:border-main dark:text-main  text-support border-support'>
+          <div className='flex flex-row justify-around py-4 dark:hover:text-support text-support dark:text-main pb-5 md:pb-20 md:text-base text-sm'>
+            <p className='px-3 py-2 rounded-2xl border dark:border-main border-support'>
               Creative
             </p>
-            <p className='px-2 py-2 rounded-3xl border dark:border-main dark:text-main text-support border-support'>
+            <p className='px-3 py-2 rounded-2xl border dark:border-main border-support'>
               Technical
             </p>
-            <p className='px-2 py-2 rounded-3xl border dark:border-main dark:text-main text-support border-support'>
+            <p className='px-3 py-2 rounded-2xl border dark:border-main border-support'>
               DeFi
             </p>
           </div>
           <div className='flex justify-center mt-2 md:mt-6 md:mb-4 mb-1'>
-            <button className='md:text-lg px-4 py-3 rounded-3xl border dark:border-main dark:text-main text-support border-support text-base'>
-              Read More
-            </button>
-          </div>
-        </div>
-        <div className='rounded-3xl border border-support dark:border-main w-72 md:w-96 px-6 py-8 hover:bg-gradient-to-r hover:from-caro hover:to-cele transition-all duration-300'>
-          <div className='flex justify-between mb-8'>
-            <button className='p-3 bg-gradient-to-tr from-purp to-dide rounded-xl'>
-              <SiSolana />
-            </button>
-            <p className='bg-tange p-3 rounded-3xl text-sm'>Solana</p>
-          </div>
-          <h1 className='md:text-3xl text-xl font-advent font-bold'>
-            Ribh Discover Rice
-          </h1>
-          <p className='md:text-lg text-sm py-4'>
-            A website for a top class barbing salon to deliver exquisite styling
-            to their clients.
-          </p>
-          <div className='flex flex-row justify-around py-4 dark:text-main pb-5 md:pb-20 md:text-base text-sm'>
-            <p className='px-2 py-2 rounded-3xl border dark:border-main dark:text-main  text-support border-support'>
-              Creative
-            </p>
-            <p className='px-2 py-2 rounded-3xl border dark:border-main dark:text-main text-support border-support'>
-              Technical
-            </p>
-            <p className='px-2 py-2 rounded-3xl border dark:border-main dark:text-main text-support border-support'>
-              DeFi
-            </p>
-          </div>
-          <div className='flex justify-center mt-2 md:mt-6 md:mb-4 mb-1'>
-            <button className='md:text-lg px-4 py-3 rounded-3xl border dark:border-main dark:text-main text-support border-support text-base'>
-              Read More
-            </button>
-          </div>
-        </div>
-        <div className='rounded-3xl border border-support dark:border-main w-72 md:w-96 px-6 py-8 hover:bg-gradient-to-r hover:from-caro hover:to-cele transition-all duration-300'>
-          <div className='flex justify-between mb-8'>
-            <button className='p-3 bg-gradient-to-tr from-purp to-dide rounded-xl'>
-              <SiSolana />
-            </button>
-            <p className='bg-tange p-3 rounded-3xl text-sm'>Solana</p>
-          </div>
-          <h1 className='md:text-3xl text-xl font-advent font-bold'>
-            Ribh Discover Rice
-          </h1>
-          <p className='md:text-lg text-sm py-4'>
-            A website for a top class barbing salon to deliver exquisite styling
-            to their clients.
-          </p>
-          <div className='flex flex-row justify-around py-4 dark:text-main pb-5 md:pb-20 md:text-base text-sm'>
-            <p className='px-2 py-2 rounded-3xl border dark:border-main dark:text-main  text-support border-support'>
-              Creative
-            </p>
-            <p className='px-2 py-2 rounded-3xl border dark:border-main dark:text-main text-support border-support'>
-              Technical
-            </p>
-            <p className='px-2 py-2 rounded-3xl border dark:border-main dark:text-main text-support border-support'>
-              DeFi
-            </p>
-          </div>
-          <div className='flex justify-center mt-2 md:mt-6 md:mb-4 mb-1'>
-            <button className='md:text-lg px-4 py-3 rounded-3xl border dark:border-main dark:text-main text-support border-support text-base'>
-              Read More
-            </button>
-          </div>
-        </div>
-        <div className='rounded-3xl border border-support dark:border-main w-72 md:w-96 px-6 py-8 hover:bg-gradient-to-r hover:from-caro hover:to-cele transition-all duration-300'>
-          <div className='flex justify-between mb-8'>
-            <button className='p-3 bg-gradient-to-tr from-purp to-dide rounded-xl'>
-              <SiSolana />
-            </button>
-            <p className='bg-tange p-3 rounded-3xl text-sm'>Solana</p>
-          </div>
-          <h1 className='md:text-3xl text-xl font-advent font-bold'>
-            Ribh Discover Rice
-          </h1>
-          <p className='md:text-lg text-sm py-4'>
-            A website for a top class barbing salon to deliver exquisite styling
-            to their clients.
-          </p>
-          <div className='flex flex-row justify-around py-4 dark:text-main pb-5 md:pb-20 md:text-base text-sm'>
-            <p className='px-2 py-2 rounded-3xl border dark:border-main dark:text-main  text-support border-support'>
-              Creative
-            </p>
-            <p className='px-2 py-2 rounded-3xl border dark:border-main dark:text-main text-support border-support'>
-              Technical
-            </p>
-            <p className='px-2 py-2 rounded-3xl border dark:border-main dark:text-main text-support border-support'>
-              DeFi
-            </p>
-          </div>
-          <div className='flex justify-center mt-2 md:mt-6 md:mb-4 mb-1'>
-            <button className='md:text-lg px-4 py-3 rounded-3xl border dark:border-main dark:text-main text-support border-support text-base'>
-              Read More
-            </button>
-          </div>
-        </div>
-        <div className='rounded-3xl border border-support dark:border-main w-72 md:w-96 px-6 py-8 hover:bg-gradient-to-r hover:from-caro hover:to-cele transition-all duration-300'>
-          <div className='flex justify-between mb-8'>
-            <button className='p-3 bg-gradient-to-tr from-purp to-dide rounded-xl'>
-              <SiSolana />
-            </button>
-            <p className='bg-tange p-3 rounded-3xl text-sm'>Solana</p>
-          </div>
-          <h1 className='md:text-3xl text-xl font-advent font-bold'>
-            Ribh Discover Rice
-          </h1>
-          <p className='md:text-lg text-sm py-4'>
-            A website for a top class barbing salon to deliver exquisite styling
-            to their clients.
-          </p>
-          <div className='flex flex-row justify-around py-4 dark:text-main pb-5 md:pb-20 md:text-base text-sm'>
-            <p className='px-2 py-2 rounded-3xl border dark:border-main dark:text-main  text-support border-support'>
-              Creative
-            </p>
-            <p className='px-2 py-2 rounded-3xl border dark:border-main dark:text-main text-support border-support'>
-              Technical
-            </p>
-            <p className='px-2 py-2 rounded-3xl border dark:border-main dark:text-main text-support border-support'>
-              DeFi
-            </p>
-          </div>
-          <div className='flex justify-center mt-2 md:mt-6 md:mb-4 mb-1'>
-            <button className='md:text-lg px-4 py-3 rounded-3xl border dark:border-main dark:text-main text-support border-support text-base'>
-              Read More
-            </button>
-          </div>
-        </div>
-        <div className='rounded-3xl border border-support dark:border-main w-72 md:w-96 px-6 py-8 hover:bg-gradient-to-r hover:from-caro hover:to-cele transition-all duration-300'>
-          <div className='flex justify-between mb-8'>
-            <button className='p-3 bg-gradient-to-tr from-purp to-dide rounded-xl'>
-              <SiSolana />
-            </button>
-            <p className='bg-tange p-3 rounded-3xl text-sm'>Solana</p>
-          </div>
-          <h1 className='md:text-3xl text-xl font-advent font-bold'>
-            Ribh Discover Rice
-          </h1>
-          <p className='md:text-lg text-sm py-4'>
-            A website for a top class barbing salon to deliver exquisite styling
-            to their clients.
-          </p>
-          <div className='flex flex-row justify-around py-4 dark:text-main pb-5 md:pb-20 md:text-base text-sm'>
-            <p className='px-2 py-2 rounded-3xl border dark:border-main dark:text-main  text-support border-support'>
-              Creative
-            </p>
-            <p className='px-2 py-2 rounded-3xl border dark:border-main dark:text-main text-support border-support'>
-              Technical
-            </p>
-            <p className='px-2 py-2 rounded-3xl border dark:border-main dark:text-main text-support border-support'>
-              DeFi
-            </p>
-          </div>
-          <div className='flex justify-center mt-2 md:mt-6 md:mb-4 mb-1'>
-            <button className='md:text-lg px-4 py-3 rounded-3xl border dark:border-main dark:text-main text-support border-support text-base'>
-              Read More
-            </button>
+            <a href='https://drive.google.com/file/d/1-6qoED6N8ZugmRi01mVfj05FAA1A8-LP/view'>
+              <button className='md:text-lg px-4 py-3 rounded-2xl border dark:border-main dark:text-main dark:hover:text-support text-support border-support text-base'>
+                Read More
+              </button>
+            </a>
           </div>
         </div>
       </div>
