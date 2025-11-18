@@ -1,3 +1,5 @@
+const { GrUbuntu } = require('react-icons/gr');
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode: 'class',
@@ -7,7 +9,7 @@ module.exports = {
       fontFamily: {
         bungee: ['Bungee Shade', 'sans-serif'],
         cardo: ['Cardo', 'serif'],
-        elms: ['Elms San', 'sans-serif'],
+        ubuntu: ['Ubuntu Sans', 'sans-serif'],
         lato: ['Lato', 'sans-serif'],
         advent: ['Advent Pro', 'sans-serif'],
         jersey: ['Jersey 25', 'sans-serif'],
@@ -24,6 +26,8 @@ module.exports = {
         tange: '#F58A07',
         purp: '#5F00BA',
         jas: '#F4D06F',
+        neon: '#ED217C',
+        deep: '#30C5FF',
       },
     },
   },

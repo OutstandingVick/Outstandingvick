@@ -45,13 +45,15 @@ export default function Home() {
       </div>
       <br />
       <div className='flex justify-center'>
-        <button className='text-xl py-4 px-6 rounded-full border-2 dark:text-main dark:border-main text-support border-support transition-transform duration-200 hover:scale-150'>
-          Connect With Me!
-        </button>
+        <a href='mailto:victor.ogbonna@hotmail.com'>
+          <button className='text-xl py-4 px-6 rounded-full border-2 dark:text-main dark:border-main text-support border-support transition-transform duration-200 hover:scale-150'>
+            Connect With Me!
+          </button>
+        </a>
       </div>
       <br />
       <div className='flex flex-col md:flex-row md:mx-12 md:m-16 justify-between '>
-        <h1 className='md:text-6xl text-2xl font-elms font-bold'>
+        <h1 className='md:text-6xl text-2xl font-ubuntu font-semibold'>
           Featured Works
         </h1>
         <div className='md:text-lg mt-2 font-cardo'>
@@ -101,21 +103,21 @@ export default function Home() {
             </a>
           </div>
         </div>
-        <div className='rounded-3xl border border-support dark:border-main w-72 md:w-96 px-6 py-8 hover:bg-gradient-to-r hover:from-caro hover:to-cele dark:hover:text-support transition-all duration-300'>
+        <div className='rounded-3xl border border-support dark:border-main w-72 md:w-96 px-6 py-8 hover:bg-gradient-to-br hover:from-deep hover:to-neon dark:hover:text-support transition-all duration-300'>
           <div className='flex justify-between mb-8'>
             <button className='p-3 text-support bg-gradient-to-tr from-purp to-dide rounded-xl'>
               <SiSolana />
             </button>
             <p className='bg-tange p-3 rounded-3xl text-sm text-support'>
-              Solblaze
+              DATs
             </p>
           </div>
           <h1 className='md:text-2xl text-xl font-jersey font-bold'>
-            Liquid Staking on Solana: The Solblaze Ecosystem
+            Modern Empires built on Crypto: The Rise of DATs
           </h1>
           <p className='md:text-lg text-sm py-4'>
-            A creative technical research paper exploring the Solblaze liquid
-            staking product base
+            A creative technical research paper on the emergence of Digital
+            Asset Tresuries (DATs) in Web3.
           </p>
           <div className='flex flex-row justify-around py-4 dark:hover:text-support text-support dark:text-main pb-5 md:pb-20 md:text-base text-sm'>
             <p className='px-3 py-2 rounded-2xl border dark:border-main border-support'>
@@ -129,7 +131,7 @@ export default function Home() {
             </p>
           </div>
           <div className='flex justify-center mt-2 md:mt-6 md:mb-4 mb-1'>
-            <a href='https://drive.google.com/file/d/1-6qoED6N8ZugmRi01mVfj05FAA1A8-LP/view'>
+            <a href='https://drive.google.com/file/d/14WHGKS3Pb9sw2AvnIiOkkPTzVFtLyvEw/view?usp=drivesdk'>
               <button className='md:text-lg px-4 py-3 rounded-2xl border dark:border-main dark:text-main dark:hover:text-support text-support border-support text-base'>
                 Read More
               </button>
