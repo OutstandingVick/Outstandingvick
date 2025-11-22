@@ -138,21 +138,56 @@ export default function Home() {
             </a>
           </div>
         </div>
-        <div className='rounded-3xl border border-support dark:border-main w-72 md:w-96 px-6 py-8 hover:bg-gradient-to-r hover:from-caro hover:to-cele dark:hover:text-support transition-all duration-300'>
+        <div className='rounded-3xl border border-support dark:border-main w-72 md:w-96 px-6 py-8 hover:bg-gradient-to-r hover:from-yege hover:to-teag dark:hover:text-support transition-all duration-300'>
           <div className='flex justify-between mb-8'>
             <button className='p-3 text-support bg-gradient-to-tr from-purp to-dide rounded-xl'>
               <SiSolana />
             </button>
             <p className='bg-tange p-3 rounded-3xl text-sm text-support'>
-              Solblaze
+              Etherfuse
             </p>
           </div>
           <h1 className='md:text-2xl text-xl font-jersey font-bold'>
-            Liquid Staking on Solana: The Solblaze Ecosystem
+            How Etherfuse Stablebonds are Transforming Collateral and Stability
+            in DeFi
           </h1>
           <p className='md:text-lg text-sm py-4'>
-            A creative technical research paper exploring the Solblaze liquid
-            staking product base
+            A technical research paper on how Etherfuse is bridging TradFi and
+            DeFi with Stablebonds.
+          </p>
+          <div className='flex flex-row justify-around py-4 dark:hover:text-support text-support dark:text-main pb-5 md:pb-20 md:text-base text-sm'>
+            <p className='px-3 py-2 rounded-2xl border dark:border-main border-support'>
+              Creative
+            </p>
+            <p className='px-3 py-2 rounded-2xl border dark:border-main border-support'>
+              Technical
+            </p>
+            <p className='px-3 py-2 rounded-2xl border dark:border-main border-support'>
+              DeFi
+            </p>
+          </div>
+          <div className='flex justify-center mt-2 md:mt-6 md:mb-4 mb-1'>
+            <a href='https://open.substack.com/pub/outstandingvick/p/how-etherfuse-stablebonds-are-redefining'>
+              <button className='md:text-lg px-4 py-3 rounded-2xl border dark:border-main dark:text-main dark:hover:text-support text-support border-support text-base'>
+                Read More
+              </button>
+            </a>
+          </div>
+        </div>
+        <div className='rounded-3xl border border-support dark:border-main w-72 md:w-96 px-6 py-8 hover:bg-gradient-to-tr hover:from-caro hover:to-deli dark:hover:text-support transition-all duration-300'>
+          <div className='flex justify-between mb-8'>
+            <button className='p-3 text-support bg-gradient-to-tr from-purp to-dide rounded-xl'>
+              <SiSolana />
+            </button>
+            <p className='bg-tange p-3 rounded-3xl text-sm text-support'>
+              Raydium
+            </p>
+          </div>
+          <h1 className='md:text-2xl text-xl font-jersey font-bold'>
+            Raydium: Solana’s Leading DeFi Hub
+          </h1>
+          <p className='md:text-lg text-sm py-4'>
+            A research article on Raydium and its role in Solana DeFi.
           </p>
           <div className='flex flex-row justify-around py-4 dark:hover:text-support text-support dark:text-main pb-5 md:pb-20 md:text-base text-sm'>
             <p className='px-3 py-2 rounded-2xl border dark:border-main border-support'>
@@ -173,7 +208,7 @@ export default function Home() {
             </a>
           </div>
         </div>
-        <div className='rounded-3xl border border-support dark:border-main w-72 md:w-96 px-6 py-8 hover:bg-gradient-to-r hover:from-caro hover:to-cele dark:hover:text-support transition-all duration-300'>
+        <div className='rounded-3xl border border-support dark:border-main w-72 md:w-96 px-6 py-8 hover:bg-gradient-to-r hover:from-pale hover:to-wist dark:hover:text-support transition-all duration-300'>
           <div className='flex justify-between mb-8'>
             <button className='p-3 text-support bg-gradient-to-tr from-purp to-dide rounded-xl'>
               <SiSolana />
@@ -183,11 +218,11 @@ export default function Home() {
             </p>
           </div>
           <h1 className='md:text-2xl text-xl font-jersey font-bold'>
-            Liquid Staking on Solana: The Solblaze Ecosystem
+            The Great Stress Test: A Post Mortem Report on L1s and L2s.
           </h1>
           <p className='md:text-lg text-sm py-4'>
-            A creative technical research paper exploring the Solblaze liquid
-            staking product base
+            A Post-Mortem Analysis on L1 & L2 Resilience During the October 2025
+            Crypto Crash and AWS Outage.
           </p>
           <div className='flex flex-row justify-around py-4 dark:hover:text-support text-support dark:text-main pb-5 md:pb-20 md:text-base text-sm'>
             <p className='px-3 py-2 rounded-2xl border dark:border-main border-support'>
@@ -201,14 +236,14 @@ export default function Home() {
             </p>
           </div>
           <div className='flex justify-center mt-2 md:mt-6 md:mb-4 mb-1'>
-            <a href='https://drive.google.com/file/d/1-6qoED6N8ZugmRi01mVfj05FAA1A8-LP/view'>
+            <a href='https://docs.google.com/document/d/1qEO65oh3xlOylHE-dthUOOyNKw0RLayK8B13yVWE8kc/edit?tab=t.0#heading=h.x2kj2a9pdk5u'>
               <button className='md:text-lg px-4 py-3 rounded-2xl border dark:border-main dark:text-main dark:hover:text-support text-support border-support text-base'>
                 Read More
               </button>
             </a>
           </div>
         </div>
-        <div className='rounded-3xl border border-support dark:border-main w-72 md:w-96 px-6 py-8 hover:bg-gradient-to-r hover:from-caro hover:to-cele dark:hover:text-support transition-all duration-300'>
+        <div className='rounded-3xl border border-support dark:border-main w-72 md:w-96 px-6 py-8 hover:bg-gradient-to-r hover:from-must hover:to-aqua dark:hover:text-support transition-all duration-300'>
           <div className='flex justify-between mb-8'>
             <button className='p-3 text-support bg-gradient-to-tr from-purp to-dide rounded-xl'>
               <SiSolana />
@@ -218,11 +253,11 @@ export default function Home() {
             </p>
           </div>
           <h1 className='md:text-2xl text-xl font-jersey font-bold'>
-            Liquid Staking on Solana: The Solblaze Ecosystem
+            The Silent Revolution: Why Content is the Main Infra
           </h1>
           <p className='md:text-lg text-sm py-4'>
-            A creative technical research paper exploring the Solblaze liquid
-            staking product base
+            A creative article on the importance of Content to the growth of
+            Solana.
           </p>
           <div className='flex flex-row justify-around py-4 dark:hover:text-support text-support dark:text-main pb-5 md:pb-20 md:text-base text-sm'>
             <p className='px-3 py-2 rounded-2xl border dark:border-main border-support'>
@@ -236,42 +271,7 @@ export default function Home() {
             </p>
           </div>
           <div className='flex justify-center mt-2 md:mt-6 md:mb-4 mb-1'>
-            <a href='https://drive.google.com/file/d/1-6qoED6N8ZugmRi01mVfj05FAA1A8-LP/view'>
-              <button className='md:text-lg px-4 py-3 rounded-2xl border dark:border-main dark:text-main dark:hover:text-support text-support border-support text-base'>
-                Read More
-              </button>
-            </a>
-          </div>
-        </div>
-        <div className='rounded-3xl border border-support dark:border-main w-72 md:w-96 px-6 py-8 hover:bg-gradient-to-r hover:from-caro hover:to-cele dark:hover:text-support transition-all duration-300'>
-          <div className='flex justify-between mb-8'>
-            <button className='p-3 text-support bg-gradient-to-tr from-purp to-dide rounded-xl'>
-              <SiSolana />
-            </button>
-            <p className='bg-tange p-3 rounded-3xl text-sm text-support'>
-              Solblaze
-            </p>
-          </div>
-          <h1 className='md:text-2xl text-xl font-jersey font-bold'>
-            Liquid Staking on Solana: The Solblaze Ecosystem
-          </h1>
-          <p className='md:text-lg text-sm py-4'>
-            A creative technical research paper exploring the Solblaze liquid
-            staking product base
-          </p>
-          <div className='flex flex-row justify-around py-4 dark:hover:text-support text-support dark:text-main pb-5 md:pb-20 md:text-base text-sm'>
-            <p className='px-3 py-2 rounded-2xl border dark:border-main border-support'>
-              Creative
-            </p>
-            <p className='px-3 py-2 rounded-2xl border dark:border-main border-support'>
-              Technical
-            </p>
-            <p className='px-3 py-2 rounded-2xl border dark:border-main border-support'>
-              DeFi
-            </p>
-          </div>
-          <div className='flex justify-center mt-2 md:mt-6 md:mb-4 mb-1'>
-            <a href='https://drive.google.com/file/d/1-6qoED6N8ZugmRi01mVfj05FAA1A8-LP/view'>
+            <a href='https://substack.com/@outstandingvick/note/p-176928151?utm_source=notes-share-action&r=4sgotn'>
               <button className='md:text-lg px-4 py-3 rounded-2xl border dark:border-main dark:text-main dark:hover:text-support text-support border-support text-base'>
                 Read More
               </button>
