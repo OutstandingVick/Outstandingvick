@@ -218,7 +218,7 @@ export default function Home() {
             </p>
           </div>
           <h1 className='md:text-2xl text-xl font-jersey font-bold'>
-            The Great Stress Test: A Post Mortem Report on L1s and L2s.
+            The Great Stress Test: A Post Mortem Report on L1s and L2s
           </h1>
           <p className='md:text-lg text-sm py-4'>
             A Post-Mortem Analysis on L1 & L2 Resilience During the October 2025
@@ -291,7 +291,7 @@ export default function Home() {
         </div>
       </div>
       <div id='about' className='md:mx-9 mt-7 md:mt-0'>
-        <p className='md:text-xl font-cardo font-bold'>
+        <p className='md:text-xl font-cardo font-semibold'>
           I’m a Web3 writer, researcher, community manager, and state lead
           passionate about building meaningful connections in the Solana
           ecosystem. With a mix of storytelling and strategy, I help projects
