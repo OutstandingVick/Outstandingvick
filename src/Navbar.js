@@ -1,9 +1,7 @@
 
 import { useState } from 'react';
-import { Menu, X } from 'lucide-react';
 import { useTheme } from './ThemeContext';
 import { GoSun } from 'react-icons/go';
-import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,7 +9,7 @@ const Navbar = () => {
 
   const navLinks = [
     { name: 'Home', href: '#' },
-    { name: 'Works', href: '/works' },
+    { name: 'Works', href: '/Works' },
     { name: 'About', href: '#' },
     { name: 'Experience', href: '#' },
   ];
