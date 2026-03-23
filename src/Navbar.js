@@ -32,8 +32,8 @@ const Navbar = () => {
             />
           </div>
           
-          <div className="hidden hover:text-second sm:flex flex-col justify-center">
-            <span className="font-bold text-sm md:text-base leading-none tracking-wide">
+          <div className=" hover:text-second flex flex-col justify-center">
+            <span className="font-bold text-xs md:text-base leading-none tracking-wide">
               Outstandingvick
             </span>
             <span className="text-xs md:text-xs mt-1.5 py-0.5 rounded-md w-max uppercase tracking-wider font-medium">
@@ -42,7 +42,7 @@ const Navbar = () => {
           </div>
         </div>
 
-        <button onClick={toggleTheme} className="pl-2 md:pl-0">
+        <button onClick={toggleTheme} className="pl-24 md:pl-0">
           <GoSun />
         </button>
 
@@ -62,7 +62,7 @@ const Navbar = () => {
 
         {/* Mobile Hamburger Button */}
         <button 
-          className="lg:hidden text-black font-bold hover:text-white p-2 focus:outline-none ml-auto"
+          className="lg:hidden text-decond dark:text-dain font-bold hover:text-white p-2 focus:outline-none ml-auto"
           onClick={() => setIsOpen(!isOpen)}
           aria-label="Toggle Menu"
         >

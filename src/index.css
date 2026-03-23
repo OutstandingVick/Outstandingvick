@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&family=Bungee+Shade&family=Cardo:ital,wght@0,400;0,700;1,400&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Jersey+25&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
 
 body {
@@ -7,6 +11,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  @apply overflow-x-hidden
 }
 
 *, *::before, *::after {
@@ -14,6 +19,7 @@ body {
 }
 
 html, body, #root {
+  background-color: #E4D6A7;
   height: 100%;
   width: 100%;
   overflow-x: hidden;
@@ -23,5 +29,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-

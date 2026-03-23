@@ -58,10 +58,10 @@ const Works = () => {
         {projects.map((project, index) => (
           <div 
             key={index} 
-            className="group relative bg-[#111] dark:bg-decond border border-gray-800 p-8 rounded-3xl hover:border-yellow-500 transition-all duration-300 hover:-translate-y-2 flex flex-col h-full"
+            className="group relative bg-dain dark:bg-decond border border-gray-800 p-8 rounded-3xl hover:border-yellow-500 transition-all duration-300 hover:-translate-y-2 flex flex-col h-full"
           >
             <h4 className="text-yellow-500 dark:text-black text-sm font-bold uppercase tracking-wider mb-2">{project.company}</h4>
-            <h3 className="text-2xl font-bold text-white dark:text-dain  mb-4">{project.title}</h3>
+            <h3 className="text-2xl font-bold text-decond dark:text-dain  mb-4">{project.title}</h3>
             <p className="text-gray-400 dark:text-dain mb-8 flex-grow">{project.desc}</p>
             
             <div className="flex flex-wrap gap-2 mb-8">

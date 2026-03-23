@@ -1,0 +1,39 @@
+import React from 'react';
+
+const About = () => {
+  return (
+    <section className="py-24">
+        <h3 className="text-4xl md:text-5xl font-bold text-center pb-14 text-dain dark:text-decond">About Me</h3>
+      <div className="flex flex-col lg:flex-row gap-16 items-start">
+        {/* Left Side: Image Placeholder */}
+        <div className="w-full lg:w-2/5 border border-gray-800 rounded-3xl overflow-hidden relative">
+           <div className=" flex items-center justify-center">
+            <img
+              className='bg-no-repeat bg-center bg-cover'
+              src={`${process.env.PUBLIC_URL}/img/about.jpg`}
+              alt='Profile'
+            />
+           </div>
+        </div>
+
+        {/* Right Side: Text */}
+        <div className="w-full lg:w-3/5 space-y-8 text-dain dark:text-decond">
+          <p className="text-xl leading-relaxed">
+            I'm a Web3 writer, researcher, community manager, and state lead passionate about building meaningful connections in the Solana ecosystem.
+          </p>
+          <p className="leading-relaxed">
+            With a mix of storytelling and strategy, I help projects communicate their vision, activate their audience, and grow with purpose. As a social media manager and aspiring CMO, I focus on crafting narratives that stick—turning complex ideas into engaging content that drives culture and trust. 
+          </p>
+          <p className="leading-relaxed">
+            I thrive at the intersection of community, communication, and creativity, helping teams shape messages that move people and build belief in Web3.
+          </p>
+          <p className="leading-relaxed">
+            I turn complex blockchain concepts into clear, compelling narratives through research, storytelling, and community insights.
+          </p>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default About;
