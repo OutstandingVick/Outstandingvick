@@ -1,6 +1,8 @@
 import React from 'react';
 import Works from './Works';
 import About from './About';
+import Experience from './Experience';
+import Contact from './Contact';
 
 const Home = () => {
   return (
@@ -16,6 +18,8 @@ const Home = () => {
       </div>
       <Works />
       <About />
+      <Experience />
+      <Contact />
     </section>
   );
 };
