@@ -42,7 +42,7 @@ const Navbar = () => {
           </div>
         </div>
 
-        <button onClick={toggleTheme} className="pl-40 md:pl-0">
+        <button onClick={toggleTheme} className="pl-2 md:pl-0">
           <GoSun />
         </button>
 

@@ -3,7 +3,7 @@ import Works from './Works';
 
 const Home = () => {
   return (
-    <section className="min-h-screen overflow-hidden flex flex-col justify-center md:pt-48 pb-12">
+    <section className="min-h-screen flex flex-col justify-center md:pt-48 pb-12">
       <div className="md:space-y-6 max-w-5xl text-second dark:text-decond">
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold leading-[1.1]">
           I Make Written <br />

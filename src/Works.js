@@ -36,12 +36,19 @@ const projects = [
     tags: ["Creative", "Technical", "DeFi"],
     url: "https://your-link-here.com" // Add your URL here
   },
+  {
+    title: "Modern Empires built on Crypto",
+    company: "DATs",
+    desc: "A creative technical research paper on the emergence of Digital Asset Treasuries (DATs) in Web3.",
+    tags: ["Creative", "Technical", "DeFi"],
+    url: "https://your-link-here.com" // Add your URL here
+  },
   // Add your other projects here
 ];
 
 const Works = () => {
   return (
-    <section className="md:pt-24" id="works">
+    <section className="py-16 md:py-24" id="works">
       <h3 className="text-4xl md:text-5xl font-bold text-black dark:text-decond mb-4">Featured Works</h3>
       <p className="text-black dark:text-decond mb-12 max-w-2xl">
         A curated set of projects from research papers to articles, built with creativity, readability, and engagement in mind.

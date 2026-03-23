@@ -12,7 +12,7 @@ function App() {
       <div className='min-h-screen overflow-hidden dark:bg-dain bg-decond bg-center px-5 md:px-20'>
         <ScrollToTop />
         <Navbar />
-        <div className='p-0'>
+        <div className='p-0 overflow-hidden overflow-x-hidden'>
           <Routes>
             <Route path='/' element={<Home />} />
           </Routes>
