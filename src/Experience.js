@@ -8,7 +8,7 @@ const Experience = () => {
   return (
     <section className="py-24">
       <div className="text-center text-dain mb-16">
-        <h3 className="text-4xl md:text-5xl font-bold mb-4">My Expertise</h3>
+        <h3 className="text-4xl md:text-5xl font-bold mb-4">My Experience</h3>
         <p className="text-base">The capacities in which I exercise my services.</p>
       </div>
 

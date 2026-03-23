@@ -15,7 +15,7 @@ const Contact = () => {
         Send me a message now!
       </a>
 
-      <div className="flex space-x-8 text-dain font-medium">
+      <div className="sm:flex grid grid-cols-2 space-x-8 text-dain font-medium">
         <a href="/" className="hover:text-white transition-colors">X (Twitter)</a>
         <a href="/" className="hover:text-white transition-colors">Telegram</a>
         <a href="/" className="hover:text-white transition-colors">Substack</a>
