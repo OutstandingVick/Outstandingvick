@@ -17,6 +17,7 @@ module.exports = {
       },
       colors: {
         main: '#F5B700',
+        second: '#9B2915',
         support: '#0F110C',
         side: '#F93943',
         dain: '#001A23',
