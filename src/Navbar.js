@@ -1,102 +1,102 @@
+
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import { useTheme } from './ThemeContext';
 import { GoSun } from 'react-icons/go';
+import { Link } from 'react-router-dom';
 
-export default function Navbar() {
+const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const { toggleTheme } = useTheme();
 
+  const navLinks = [
+    { name: 'Home', href: '#' },
+    { name: 'Works', href: '/works' },
+    { name: 'About', href: '#' },
+    { name: 'Experience', href: '#' },
+  ];
+
   return (
-    <nav className='font-crimson dark:bg-dain dark:text-main text-support bg-main py-2'>
-      <div className='flex items-center justify-between'>
-        <div className='flex items-center space-x-2'>
-          <div className='p-2'>
+    <nav className="fixed top-6 left-1/2 -translate-x-1/2 z-50 w-[95%] max-w-6xl transition-all duration-300">
+      {/* Main Glassmorphism Container */}
+      <div className="bg-dain dark:bg-decond text-decond backdrop-blur-md border border-gray-800 rounded-full px-4 md:px-6 py-3 flex items-center justify-between">
+        
+        {/* Left: Icon, Name, and Job Title */}
+        <div className="flex items-center space-x-3 md:space-x-4">
+          {/* Profile Icon Placeholder */}
+          <div className="w-10 h-10 md:w-11 md:h-11 rounded-full bg-gray-800 overflow-hidden border-2 border-gray-700 flex-shrink-0">
             <img
-              className='rounded-full md:w-14 md:h-14 w-11 h-11 bg-no-repeat bg-center bg-cover'
+              className='rounded-full bg-no-repeat bg-center bg-cover'
               src={`${process.env.PUBLIC_URL}/img/prof.jpg`}
               alt='Profile'
             />
           </div>
-          <div className='flex flex-col'>
-            <a href='/'>
-              <h1 className='font-semibold md:text-xl  dark:hover:text-main hover:text-side'>
-                Oustandingvick
-              </h1>
-            </a>
-
-            <h2 className='text-sm md:text-lg dark:text-jas text-dain dark:hover:text-main hover:text-side'>
-              Web3 Writer and Researcher
-            </h2>
+          
+          <div className="hidden hover:text-second sm:flex flex-col justify-center">
+            <span className="font-bold text-sm md:text-base leading-none tracking-wide">
+              Outstandingvick
+            </span>
+            <span className="text-xs md:text-xs mt-1.5 py-0.5 rounded-md w-max uppercase tracking-wider font-medium">
+              Solana Writer & Researcher
+            </span>
           </div>
         </div>
 
-        <button onClick={toggleTheme}>
+        <button onClick={toggleTheme} className="pl-40 md:pl-0">
           <GoSun />
         </button>
 
-        <div className='text-lg hidden md:flex space-x-8 font-semibold'>
-          <a
-            href='#works'
-            className='hover:text-side  dark:hover:text-main hover:underline underline-offset-4'
-          >
-            Works
-          </a>
-          <a
-            href='#about'
-            className='hover:text-side dark:hover:text-main hover:underline underline-offset-4'
-          >
-            About
-          </a>
-          <a
-            href='#experience'
-            className='hover:text-side dark:hover:text-main hover:underline underline-offset-4'
-          >
-            Experience
-          </a>
-          <a
-            href='#contact'
-            className='hover:text-side dark:hover:text-main hover:underline underline-offset-4'
-          >
+        {/* Right: Desktop Menu & Contact */}
+        <div className="hidden lg:flex items-center space-x-8 text-sm font-medium">
+          <ul className="flex items-center space-x-8">
+            {navLinks.map((link) => (
+              <li key={link.name} className="hover:text-second transition-colors cursor-pointer">
+                {link.name}
+              </li>
+            ))}
+          </ul>
+          <button className="text-main hover:bg-blue-950 transition-all duration-300 cursor-pointer bg-black px-6 py-2 rounded-full font-semibold border border-gray-700 hover:border-yellow-500">
             Contact
-          </a>
-        </div>
-
-        <div className='md:hidden bg-transparent'>
-          <button onClick={() => setIsOpen(!isOpen)}>
-            {isOpen ? (
-              <X className='hover:text-side dark:hover:text-dide dark:text-main text-support w-7 h-7' />
-            ) : (
-              <Menu className='hover:text-side dark:hover:text-dide dark:text-main text-support w-7 h-7' />
-            )}
           </button>
         </div>
+
+        {/* Mobile Hamburger Button */}
+        <button 
+          className="lg:hidden text-black font-bold hover:text-white p-2 focus:outline-none ml-auto"
+          onClick={() => setIsOpen(!isOpen)}
+          aria-label="Toggle Menu"
+        >
+          <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            {isOpen ? (
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+            ) : (
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+            )}
+          </svg>
+        </button>
       </div>
 
-      {/* Mobile Menu */}
+      {/* Mobile Menu Dropdown */}
       {isOpen && (
-        <div className='md:hidden mt-4 space-y-3 text-center dark:text-main dark:hover:text-dide text-support font-lato font-semibold'>
-          <a
-            href='#works'
-            className='block hover:text-side hover:underline underline-offset-4'
-          >
-            Works
-          </a>
-          <a
-            href='#about'
-            className='block hover:text-side hover:underline underline-offset-4'
-          >
-            About
-          </a>
-          <a
-            href='#experience'
-            className='block hover:text-side hover:underline underline-offset-4'
-          >
-            Experience
-          </a>
-          <a
-            href='#contact'
-            className='block hover:text-side hover:underline underline-offset-4'
+        <div className="lg:hidden absolute top-full left-0 w-full mt-3 bg-[#1a1a1a]/95 backdrop-blur-xl border border-gray-800 rounded-2xl p-5 flex flex-col space-y-3 shadow-2xl">
+          
+          {/* Mobile-only profile branding (shows up if screen is super small and the top one hides) */}
+          
+
+          {navLinks.map((link) => (
+            <a 
+              key={link.name} 
+              href={link.href}
+              className="text-gray-300 hover:text-yellow-500 font-medium text-center py-2 transition-colors"
+              onClick={() => setIsOpen(false)}
+            >
+              {link.name}
+            </a>
+          ))}
+          <a 
+            href="#contact"
+            className="text-white bg-second hover:bg-yellow-500 hover:text-black transition-all duration-300 font-semibold text-center py-3 rounded-full mt-4 border border-gray-700"
+            onClick={() => setIsOpen(false)}
           >
             Contact
           </a>
@@ -104,4 +104,6 @@ export default function Navbar() {
       )}
     </nav>
   );
-}
+};
+
+export default Navbar;

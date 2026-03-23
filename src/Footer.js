@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className='bg-main dark:bg-dain font-lato bg-powder py-8 px-4 lg:px-6 overflow-hidden flex justify-center'>
+    <footer className='bg-decond dark:bg-dain dark:text-decond font-lato bg-powder py-8 px-4 lg:px-6 overflow-hidden flex justify-center'>
       <article className='flex flex-col items-center'>
         <div className='container mx-auto flex justify-center'>
           <div className='text-center md:text-left font-suwannaphum mb-2'>
