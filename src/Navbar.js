@@ -48,12 +48,17 @@ const Navbar = () => {
         <div className="hidden lg:flex items-center space-x-8 text-sm font-medium">
           <ul className="flex items-center space-x-8">
             {navLinks.map((link) => (
-              <li key={link.name} className="hover:text-second transition-colors cursor-pointer">
-                {link.name}
-              </li>
-            ))}
+            <a 
+              key={link.name} 
+              href={link.href}
+              className="text-decond dark:text-dain hover:text-second font-medium text-center py-2 transition-colors"
+              onClick={() => setIsOpen(false)}
+            >
+              {link.name}
+            </a>
+          ))}
           </ul>
-          <a href="https://x.com/Outstandingvick" className="text-main hover:bg-blue-950 transition-all duration-300 cursor-pointer bg-black px-6 py-2 rounded-full font-semibold border border-gray-700 hover:border-yellow-500">
+          <a href="#contact" className="text-main hover:bg-blue-950 transition-all duration-300 cursor-pointer bg-black px-6 py-2 rounded-full font-semibold border border-gray-700 hover:border-yellow-500">
             Contact
           </a>
         </div>

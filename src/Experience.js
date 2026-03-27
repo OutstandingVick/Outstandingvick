@@ -10,12 +10,10 @@ const Experience = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-3 place-items-center gap-4 md:gap-6">
           <div 
-            className=" bg-dain dark:bg-decond w-2/3 rounded-2xl p-3 flex flex-col items-center justify-center text-center hover:bg-gray-800 hover:border-yellow-500 transition-all duration-300 cursor-default"
+            className=" bg-dain dark:bg-decond w-1/2 sm:w-full rounded-2xl p-3 flex flex-col items-center justify-center text-center hover:bg-gray-800 hover:border-yellow-500 transition-all duration-300 cursor-default"
           >
             <div className="w-32 h-12 mb-4 flex items-center justify-center text-gray-600 group-hover:scale-110 group-hover:text-yellow-500 transition-all duration-300">
-              
               <img src={`${process.env.PUBLIC_URL}/img/fossa.svg`} alt='fossapay' className="w-full h-full object-contain" />
-
             </div>
 
             <span className="text-base sm:text-lg font-medium text-decond dark:text-dain group-hover:text-yellow-500 transition-colors duration-300">
@@ -23,15 +21,23 @@ const Experience = () => {
             </span>
           </div>
           <div 
-            className=" bg-dain dark:bg-decond w-2/3 rounded-2xl p-3 flex flex-col items-center justify-center text-center hover:bg-gray-800 hover:border-yellow-500 transition-all duration-300 cursor-default"
+            className=" bg-dain dark:bg-decond w-1/2 sm:w-full rounded-2xl p-3 flex flex-col items-center justify-center text-center hover:bg-gray-800 hover:border-yellow-500 transition-all duration-300 cursor-default"
           >
             <div className="w-32 h-12 mb-4 flex items-center justify-center text-gray-600 group-hover:scale-110 group-hover:text-yellow-500 transition-all duration-300">
-              
               <img src={`${process.env.PUBLIC_URL}/img/bouns.jpg`} alt='Bounsser' className="w-full h-full object-contain" />
             </div>
-
             <span className="text-base sm:text-lg font-medium text-decond dark:text-dain group-hover:text-yellow-500 transition-colors duration-300">
               Operations & Marketing
+            </span>
+          </div>
+          <div 
+            className=" bg-dain dark:bg-decond w-1/2 sm:w-full rounded-2xl p-3 flex flex-col items-center justify-center text-center hover:bg-gray-800 hover:border-yellow-500 transition-all duration-300 cursor-default"
+          >
+            <div className="w-32 h-12 mb-4 flex items-center justify-center text-gray-600 group-hover:scale-110 group-hover:text-yellow-500 transition-all duration-300">
+              <img src={`${process.env.PUBLIC_URL}/img/supert.jpeg`} alt='Bounsser' className="w-full h-full object-contain" />
+            </div>
+            <span className="text-base sm:text-lg font-medium text-decond dark:text-dain group-hover:text-yellow-500 transition-colors duration-300">
+              State Lead
             </span>
           </div>
       </div>

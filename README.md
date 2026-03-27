@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# Outstandingvick | Web3 Writer & Researcher Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive, and highly interactive personal portfolio website designed to showcase my work as a Web3 Writer, Researcher, and State Community Lead. 
 
-## Available Scripts
+Built with a focus on clean typography, smooth animations, and a premium user experience, this portfolio turns complex blockchain concepts into clear, compelling narratives.
 
-In the project directory, you can run:
+🔗 **Live Site:** [outstandingvick.vercel.app](https://outstandingvick.vercel.app/)
+💻 **Repository:** [OutstandingVick/Outstandingvick](https://github.com/OutstandingVick/Outstandingvick)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ✨ Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* **Glassmorphism Navigation:** A responsive, frosted-glass floating pill navbar with smooth scrolling to page sections.
+* **Typography-Led Hero Section:** Bold, modern landing area focused on clear value propositions and immediate user engagement.
+* **Interactive Featured Works:** A dynamic, grid-based layout showcasing research papers and articles (e.g., Solblaze, DATs) with hover-state scaling and integrated "Read More" functionality.
+* **Bento-Box Experience Grid:** A sleek, categorized display of core competencies including Marketing, Narrative Strategy, and Social Media Management.
+* **Magnetic Call-to-Action:** A high-impact footer designed to drive direct communication and client outreach.
+* **Fully Responsive:** Optimized for all screen sizes, featuring a custom mobile hamburger menu and fluid grid layouts.
 
-### `npm test`
+## 🛠 Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This project was built with a lightweight, performance-focused stack without relying on heavy external dependencies:
 
-### `npm run build`
+* **Framework:** [React.js](https://reactjs.org/)
+* **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+* **Icons:** Custom inline SVGs
+* **Deployment:** Vercel
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚀 Local Development
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To get a local copy up and running, follow these simple steps.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
+Make sure you have Node.js and npm installed on your machine.
 
-### `npm run eject`
+### Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/OutstandingVick/Outstandingvick.git](https://github.com/OutstandingVick/Outstandingvick.git)

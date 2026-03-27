@@ -11,8 +11,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  @apply overflow-x-hidden
-}
+  }
 
 *, *::before, *::after {
   box-sizing: border-box;
@@ -20,6 +19,7 @@ body {
 
 html, body, #root {
   background-color: #E4D6A7;
+  scroll-behavior: smooth;
   height: 100%;
   width: 100%;
   overflow-x: hidden;
