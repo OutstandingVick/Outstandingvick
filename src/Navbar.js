@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <nav className="fixed top-6 left-1/2 -translate-x-1/2 z-50 w-[95%] max-w-6xl transition-all duration-300">
       {/* Main Glassmorphism Container */}
-      <div className="bg-dain dark:bg-decond text-decond backdrop-blur-md border border-gray-800 rounded-full px-4 md:px-6 py-3 flex items-center justify-between">
+      <div className="bg-dain dark:bg-decond text-decond dark:text-dain backdrop-blur-md border border-gray-800 rounded-full px-4 md:px-6 py-3 flex items-center justify-between">
         
         {/* Left: Icon, Name, and Job Title */}
         <div className="flex items-center space-x-3 md:space-x-4">
@@ -40,7 +40,7 @@ const Navbar = () => {
           </div>
         </div>
 
-        <button onClick={toggleTheme} className="pl-8 pr-2 sm:pr-0 md:pr-0 sm:pl-24 md:pl-0">
+        <button onClick={toggleTheme} className="dark:text-dain pl-8 pr-2 sm:pr-0 md:pr-0 sm:pl-24 md:pl-0">
           <GoSun />
         </button>
 

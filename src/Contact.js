@@ -3,11 +3,11 @@ import React from 'react';
 const Contact = () => {
   return (
     <section className="py-16 flex flex-col items-center justify-center text-center">
-      <h2 className="text-6xl md:text-8xl font-black text-dain leading-tight mb-8">
+      <h2 className="text-6xl md:text-8xl font-black text-dain dark:text-decond leading-tight mb-8">
         Let's Build Something <br />
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-600">Magnetic.</span>
       </h2>
-      <p className="text-xl text-dain max-w-2xl mb-12">
+      <p className="text-xl text-dain dark:text-decond max-w-2xl mb-12">
         Looking to create the best written content for your Web3 Project? Let's craft narratives that stick.
       </p>
       
@@ -15,8 +15,7 @@ const Contact = () => {
         Send me a message now!
       </a>
 
-      <div className="flex items-center justify-center gap-8 sm:gap-10 text-gray-400">
-  {/* X (Twitter) Logo */}
+      <div className="flex items-center justify-center gap-8 sm:gap-10 dark:text-decond text-dain">
   <a 
     href="https://x.com/Outstandingvick" 
     target="_blank" 
@@ -29,7 +28,6 @@ const Contact = () => {
     </svg>
   </a>
 
-  {/* Telegram Logo */}
   <a 
     href="https://t.me/Outstandingvick" 
     target="_blank" 
@@ -42,7 +40,7 @@ const Contact = () => {
     </svg>
   </a>
 
-  {/* Substack Logo */}
+
   <a 
     href="https://substack.com/@Outstandingvick" 
     target="_blank" 
@@ -55,7 +53,7 @@ const Contact = () => {
     </svg>
   </a>
 
-  {/* Medium Logo */}
+
   <a 
     href="https://medium.com/@victor.ogbonna" 
     target="_blank" 
