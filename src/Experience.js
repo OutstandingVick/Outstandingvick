@@ -36,7 +36,7 @@ const Experience = () => {
             <div className="w-32 h-12 mb-4 flex items-center justify-center text-gray-600 group-hover:scale-110 group-hover:text-yellow-500 transition-all duration-300">
               <img src={`${process.env.PUBLIC_URL}/img/supert.jpeg`} alt='Bounsser' className="w-full h-full object-contain" />
             </div>
-            <span className="text-base sm:text-lg font-medium text-decond dark:text-dain group-hover:text-yellow-500 transition-colors duration-300">
+            <span className="text-medium text-decond dark:text-dain group-hover:text-yellow-500 transition-colors duration-300">
               State Lead
             </span>
           </div>

@@ -49,7 +49,7 @@ const projects = [
 const Works = () => {
   return (
     <section className="py-16 md:py-24" id="works">
-      <h3 className="text-4xl md:text-5xl font-bold text-black dark:text-decond mb-4">Featured Works</h3>
+      <h3 className="text-4xl md:text-6xl font-bold text-black dark:text-decond mb-4">Featured Works</h3>
       <p className="text-black dark:text-decond mb-12 max-w-2xl">
         A curated set of projects from research papers to articles, built with creativity, readability, and engagement in mind.
       </p>
