@@ -24,7 +24,7 @@ const Experience = () => {
             className=" bg-dain dark:bg-decond w-1/2 sm:w-full rounded-2xl p-3 flex flex-col items-center justify-center text-center hover:bg-gray-800 hover:border-yellow-500 transition-all duration-300 cursor-default"
           >
             <div className="w-32 h-12 mb-4 flex items-center justify-center text-gray-600 group-hover:scale-110 group-hover:text-yellow-500 transition-all duration-300">
-              <img src={`${process.env.PUBLIC_URL}/img/bouns.jpg`} alt='Bounsser' className="w-full h-full object-contain" />
+              <img src={`${process.env.PUBLIC_URL}/img/bouns.png`} alt='Bounsser' className="w-full h-full object-contain" />
             </div>
             <span className="text-base sm:text-lg font-medium text-decond dark:text-dain group-hover:text-yellow-500 transition-colors duration-300">
               Operations & Marketing
