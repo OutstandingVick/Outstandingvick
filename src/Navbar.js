@@ -9,9 +9,9 @@ const Navbar = () => {
 
   const navLinks = [
     { name: 'Home', href: '#' },
-    { name: 'Works', href: '/Works' },
-    { name: 'About', href: '#' },
-    { name: 'Experience', href: '#' },
+    { name: 'Works', href: '#works' },
+    { name: 'About', href: '#about' },
+    { name: 'Experience', href: '#experience' },
   ];
 
   return (
@@ -53,9 +53,9 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
-          <button className="text-main hover:bg-blue-950 transition-all duration-300 cursor-pointer bg-black px-6 py-2 rounded-full font-semibold border border-gray-700 hover:border-yellow-500">
+          <a href="https://x.com/Outstandingvick" className="text-main hover:bg-blue-950 transition-all duration-300 cursor-pointer bg-black px-6 py-2 rounded-full font-semibold border border-gray-700 hover:border-yellow-500">
             Contact
-          </button>
+          </a>
         </div>
 
         {/* Mobile Hamburger Button */}

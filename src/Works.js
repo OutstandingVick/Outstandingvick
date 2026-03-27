@@ -2,46 +2,46 @@ import React from 'react';
 
 const projects = [
   {
+    title: "Implications of Alpenglow on Staking and Liquid Staking",
+    company: "Solana",
+    desc: "A research paper assessing the General Implications of the Alpenglow Consensus Mechanism on Staking and Liquid Staking",
+    tags: ["Creative", "Technical", "DeFi"],
+    url: "https://docs.google.com/document/d/198fvEcQyS9GKdcvUw14TRT6wTXDGB_uNlKeECTjWtY8/edit?usp=sharing" 
+  },
+  {
     title: "Liquid Staking on Solana",
     company: "Solblaze",
-    desc: "A creative technical research paper exploring the Solblaze liquid staking product base.",
+    desc: "A creative technical research paper that explores the Solblaze liquid staking ecosystem and it's suite of products.",
     tags: ["Creative", "Technical", "DeFi"],
-    url: "https://your-link-here.com" // Add your URL here
+    url: "https://drive.google.com/file/d/1-6qoED6N8ZugmRi01mVfj05FAA1A8-LP/view" 
   },
   {
     title: "Modern Empires built on Crypto",
     company: "DATs",
     desc: "A creative technical research paper on the emergence of Digital Asset Treasuries (DATs) in Web3.",
     tags: ["Creative", "Technical", "DeFi"],
-    url: "https://your-link-here.com" // Add your URL here
+    url: "https://drive.google.com/file/d/14WHGKS3Pb9sw2AvnIiOkkPTzVFtLyvEw/view" 
   },
   {
-    title: "Modern Empires built on Crypto",
-    company: "DATs",
-    desc: "A creative technical research paper on the emergence of Digital Asset Treasuries (DATs) in Web3.",
+    title: "Etherfuse Stablebonds: Transforming Collateral in DeFi",
+    company: "Etherfuse",
+    desc: "A technical research paper on thow Etherfuse Stablebonds are revolutionizing DeFi by providing innovative collateral and stability solutions.",
     tags: ["Creative", "Technical", "DeFi"],
-    url: "https://your-link-here.com" // Add your URL here
+    url: "https://open.substack.com/pub/outstandingvick/p/how-etherfuse-stablebonds-are-redefining" 
   },
   {
-    title: "Modern Empires built on Crypto",
-    company: "DATs",
-    desc: "A creative technical research paper on the emergence of Digital Asset Treasuries (DATs) in Web3.",
+    title: "The Silent Content Revolution",
+    company: "Solana Collective",
+    desc: "A creative research article on how Content Has Become the Main Infrastructure in Web3",
     tags: ["Creative", "Technical", "DeFi"],
-    url: "https://your-link-here.com" // Add your URL here
+    url: "https://open.substack.com/pub/outstandingvick/p/the-silent-revolution-why-content" // Add your URL here
   },
   {
-    title: "Modern Empires built on Crypto",
-    company: "DATs",
-    desc: "A creative technical research paper on the emergence of Digital Asset Treasuries (DATs) in Web3.",
+    title: "Busha's Solana-backed Loans",
+    company: "Busha",
+    desc: "A creative research article on how Busha is leveraging Solana's technology to provide innovative loan solutions.",
     tags: ["Creative", "Technical", "DeFi"],
-    url: "https://your-link-here.com" // Add your URL here
-  },
-  {
-    title: "Modern Empires built on Crypto",
-    company: "DATs",
-    desc: "A creative technical research paper on the emergence of Digital Asset Treasuries (DATs) in Web3.",
-    tags: ["Creative", "Technical", "DeFi"],
-    url: "https://your-link-here.com" // Add your URL here
+    url: "https://open.substack.com/pub/outstandingvick/p/bushas-solana-backed-loans-liquidity" // Add your URL here
   },
   // Add your other projects here
 ];
