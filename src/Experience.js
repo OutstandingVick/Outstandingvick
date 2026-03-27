@@ -4,8 +4,8 @@ const Experience = () => {
   return (
     <section className="py-16" id='experience'>
       <div className="text-center text-dain dark:text-decond mb-16">
-        <h3 className="text-4xl md:text-5xl font-bold mb-4">My Experience</h3>
-        <p className="text-base">The capacities in which I've exercised my services in the past and present.</p>
+        <h3 className="text-4xl md:text-6xl font-bold mb-4">Work Experience</h3>
+        <p className="text-base sm:text-lg">The capacities in which I've exercised my services in the past and present.</p>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 place-items-center gap-4 md:gap-6">
