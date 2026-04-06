@@ -19,10 +19,10 @@ const About = () => {
         {/* Right Side: Text */}
         <div className="w-full lg:w-3/5 space-y-8 sm:text-3xl text-dain dark:text-decond">
           <p className="text-xl sm:text-3xl font-bold leading-relaxed">
-            I'm a Web3 writer, researcher, community manager, and state lead passionate about building meaningful connections in the Solana ecosystem.
+            I'm a Writer, esearcher, community manager/lead passionate about building meaningful connections in the Solana ecosystem.
           </p>
           <p className="leading-relaxed">
-            With a mix of storytelling and strategy, I help projects communicate their vision, activate their audience, and grow with purpose. As a social media manager and aspiring CMO, I focus on crafting narratives that stick—turning complex ideas into engaging content that drives culture and trust. 
+            With a mix of storytelling and strategy, I help projects communicate their vision, activate their audience, and grow with purpose. Also as an aspiring CMO, I focus on crafting narratives that stick—turning complex ideas into engaging content that drives culture and trust. 
           </p>
           <p className="leading-relaxed">
             I thrive at the intersection of community, communication, and creativity, helping teams shape messages that move people and build belief in Web3.
